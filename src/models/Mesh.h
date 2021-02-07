@@ -17,6 +17,7 @@
 #include "../../../../CLionProjects/freegl/src/raw/VertexArrayLayout.h"
 #include "../../../../CLionProjects/freegl/src/raw/VertexArray.h"
 #include "../../../../CLionProjects/freegl/src/raw/IndexBuffer.h"
+#include "../raw/Shader.h"
 
 using namespace std;
 
@@ -30,7 +31,6 @@ private:
     VertexBuffer* vertexBuffer;
     Position position;
     Color color;
-
 public:
 
     Mesh(Position mesh, Color color);
@@ -39,6 +39,11 @@ public:
     inline vector<unsigned int> getIndices(){return indices;}
     inline void setVertices(vector<Vertex> vertices){this->vertices = vertices;};
     inline void setIndices(vector<unsigned int> indices){ this->indices = indices;};
+
+    inline glm::mat4 getTransformations(){
+        return  glm::rotate(glm::mat4(1.0f), glm::radians(0.1f), glm::vec3(0.0f, 1.0f, 0.0f));
+    }
+
     void init();
 
     void draw();

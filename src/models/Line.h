@@ -19,6 +19,7 @@ private:
     Color color;
 public:
     Line(Position start, Position end, Color color);
+    Line();
 
     void draw();
 

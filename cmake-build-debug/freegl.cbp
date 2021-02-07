@@ -139,6 +139,24 @@
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.h">
 			<Option target="freegl"/>
 		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.h">
+			<Option target="freegl"/>
+		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Line.cpp">
 			<Option target="freegl"/>
 		</Unit>

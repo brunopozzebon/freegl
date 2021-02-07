@@ -25,6 +25,12 @@ src/raw/Interface.h
 /home/bruno/CLionProjects/freegl/src/raw/Interface.h
 src/models/Line.h
 /home/bruno/CLionProjects/freegl/src/models/Line.h
+src/compound3dObject/GridSystem.h
+/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.h
+src/compound3dObject/Sphere.h
+/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.h
+src/compound3dObject/Prism.h
+/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.h
 
 /home/bruno/CLionProjects/freegl/src/basics/Color.h
 string
@@ -64,6 +70,18 @@ Normal.h
 ../models/Mesh.h
 /home/bruno/CLionProjects/freegl/src/models/Mesh.h
 
+/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.h
+../models/Line.h
+/home/bruno/CLionProjects/freegl/src/models/Line.h
+
+/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.h
+../models/Mesh.h
+/home/bruno/CLionProjects/freegl/src/models/Mesh.h
+
+/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.h
+../models/Mesh.h
+/home/bruno/CLionProjects/freegl/src/models/Mesh.h
+
 /home/bruno/CLionProjects/freegl/src/models/Line.h
 ../raw/VertexBuffer.h
 /home/bruno/CLionProjects/freegl/src/raw/VertexBuffer.h
@@ -93,6 +111,8 @@ vector
 /home/bruno/CLionProjects/freegl/src/raw/VertexArray.h
 ../../../../CLionProjects/freegl/src/raw/IndexBuffer.h
 /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h
+../raw/Shader.h
+/home/bruno/CLionProjects/freegl/src/raw/Shader.h
 
 /home/bruno/CLionProjects/freegl/src/models/Plane.h
 Mesh.h
@@ -121,6 +141,8 @@ vector
 /home/bruno/CLionProjects/freegl/src/raw/vector
 ../models/Mesh.h
 /home/bruno/CLionProjects/freegl/src/models/Mesh.h
+../camera/PerspectiveCamera.h
+/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
 
 /home/bruno/CLionProjects/freegl/src/raw/Shader.h
 GL/glew.h

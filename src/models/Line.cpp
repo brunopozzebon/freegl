@@ -41,3 +41,7 @@ void Line::draw() {
     glBindVertexArray(VAO);
     glDrawArrays(GL_LINES, 0, 2);
 }
+
+Line::Line() {
+
+}

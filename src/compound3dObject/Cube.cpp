@@ -22,6 +22,7 @@ Cube::Cube(Position position, Color color, int width, int height, int depth) : M
     float zMinusHalfDepth = zPosition - halfDepth;
     float zPlusHalfDepth = zPosition + halfDepth;
 
+
     vector<Vertex> v = {
             //Plane A Frente
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),

@@ -14,25 +14,50 @@ const float cameraSpeed = 3.0f;
 
 using namespace glm;
 
+static float theta, phi, ray = 0.0f;
+
 class PerspectiveCamera {
 
 private:
     mat4 projection, view;
     Window window;
     vec3 position, lookat;
-    float theta, phi, ray;
 
 public:
     PerspectiveCamera(Window window);
 
-    void moveFront();
-    void moveBack();
+    static void updateTheta(float delta) {
+        theta -=delta;
+    }
 
-    void updateTheta(float delta);
-    void updatePhi(float delta);
-    void scrool(float yoffset);
+    static void updatePhi(float delta) {
+        float newValue = phi-delta;
+        if(newValue > 0 && newValue<90){
+            phi =newValue;
+        }
+    }
 
-    void setRay(float ray);
+    static void moveFront() {
+        float difference = ray - 1.3f;
+        setRay(difference);
+    }
+
+    static void moveBack() {
+        float difference = ray + 1.3f;
+        setRay(difference);
+    }
+
+    static void scrool(float yoffset) {
+        float difference = ray-yoffset;
+        setRay(difference);
+    }
+
+    static void setRay(float r) {
+        if (r < 1.0f || r > 800.0f){
+            return;
+        }
+        ray = r;
+    }
 
     void update();
 

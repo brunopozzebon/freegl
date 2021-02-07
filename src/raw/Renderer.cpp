@@ -8,12 +8,28 @@ Renderer::Renderer(Color color) {
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_BLEND);
     glBlendFunc(GL_BLEND_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    shader = Shader("../src/resources/shaders/vertexShader.glsl",
+                  "../src/resources/shaders/fragmentShader.glsl");
+    shader.bind();
+    shader.setUniform1i("u_texture", 0);
+    shader.setUniform3Vec("u_light.color", glm::vec3(1.0f, 1.0f, 1.0f));
+    shader.setUniform3Vec("u_light.position", glm::vec3(50.0f, 50.0f, 50.0f));
+
 }
 
-void Renderer::draw(vector<Mesh*> meshes) {
+void Renderer::draw(vector<Mesh*> meshes, PerspectiveCamera * camera) {
+
+    shader.bind();
+    shader.setUniform4Mat("u_projection", camera->getProjection());
+    shader.setUniform4Mat("u_view", camera->getView());
+    shader.setUniform3Vec("u_camera_position", camera->getPosition());
+
 
     for (int i = 0; i < meshes.size(); i++) {
         Mesh* m = meshes[i];
+        glm::mat4 model = m->getTransformations();
+        shader.setUniform4Mat("u_model", model);
         m->draw();
     }
 }

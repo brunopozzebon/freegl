@@ -6,6 +6,7 @@
 #include "vector"
 #include "../models/Mesh.h"
 
+#include "../camera/PerspectiveCamera.h"
 
 #ifndef UNTITLED_RENDERER_H
 #define UNTITLED_RENDERER_H
@@ -13,9 +14,11 @@
 using namespace std;
 
 class Renderer {
+private:
+    Shader shader;
 public:
     Renderer(Color color);
-    void draw(vector<Mesh*> meshes);
+    void draw(vector<Mesh*> meshes, PerspectiveCamera * camera);
     void clear();
 };
 

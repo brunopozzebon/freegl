@@ -4,8 +4,48 @@
 
 #include "PerspectiveCamera.h"
 
+void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
+    static float lastMousePosx = 0.0f;
+    static float lastMousePosy = 0.0f;
+
+    float dx, dy;
+
+    if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
+        dx = xpos - lastMousePosx;
+
+        if (fabs(dx) > 10.0f) {
+            dx = 10.0f;
+        }
+
+        lastMousePosx = xpos;
+        PerspectiveCamera::updateTheta(dx);
+
+        dy = ypos - lastMousePosy;
+        if (fabs(dy) > 10.0f) {
+            dy = 10.0f;
+        }
+
+        lastMousePosy = ypos;
+        PerspectiveCamera::updatePhi(dy);
+    }
+}
+
+void mouseScrool(GLFWwindow *window, double xpos, double ypos) {
+    PerspectiveCamera::scrool(ypos);
+}
+
+
+void listenInput(GLFWwindow *window) {
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+        PerspectiveCamera::moveFront();
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+        PerspectiveCamera::moveBack();
+}
 
 PerspectiveCamera::PerspectiveCamera(Window window) : window(window) {
+
+    glfwSetCursorPosCallback(window.getWindow(), mouse_callback);
+    glfwSetScrollCallback(window.getWindow(), mouseScrool);
 
     projection = perspective(radians(ray), (float) window.getWidth() /
                                                      (float) window.getHeight(), 0.1f, 1000.0f);
@@ -19,6 +59,7 @@ PerspectiveCamera::PerspectiveCamera(Window window) : window(window) {
 }
 
 void PerspectiveCamera::update() {
+    listenInput(window.getWindow());
 
     float aux = ray * sin(radians(phi));
     float x = aux * sin(radians(theta));
@@ -35,35 +76,3 @@ void PerspectiveCamera::update() {
 
 
 
-void PerspectiveCamera::moveFront() {
-    float difference = ray - 1.3f;
-    setRay(difference);
-}
-
-void PerspectiveCamera::moveBack() {
-    float difference = ray + 1.3f;
-    setRay(difference);
-}
-
-void PerspectiveCamera::setRay(float r) {
-    if (r < 1.0f || r > 800.0f){
-        return;
-    }
-    this->ray = r;
-}
-
-void PerspectiveCamera::scrool(float yoffset) {
-    float difference = ray-yoffset;
-    setRay(difference);
-}
-
-void PerspectiveCamera::updateTheta(float delta) {
-    theta -=delta;
-}
-
-void PerspectiveCamera::updatePhi(float delta) {
-    float newValue = phi-delta;
-    if(newValue > 0 && newValue<90){
-        phi =newValue;
-    }
-}

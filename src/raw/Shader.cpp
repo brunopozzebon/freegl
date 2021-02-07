@@ -4,6 +4,11 @@
 
 #include "Shader.h"
 
+Shader::Shader(){
+    Shader("../src/resources/shaders/vertexShader.glsl",
+           "../src/resources/shaders/fragmentShader.glsl");
+}
+
 Shader::Shader(string vertexFilepath, string fragmentFilepath) {
     unsigned int program = glCreateProgram();
     string vertexShader = parse(vertexFilepath);

@@ -23,6 +23,7 @@ private:
 
 public:
     Shader(string vertexFilepath, string fragmentFilepath);
+    Shader();
 
     ~Shader();
 

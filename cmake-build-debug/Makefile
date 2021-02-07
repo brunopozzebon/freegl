@@ -413,6 +413,87 @@ src/compound3dObject/Cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.s
 .PHONY : src/compound3dObject/Cube.cpp.s
 
+src/compound3dObject/GridSystem.o: src/compound3dObject/GridSystem.cpp.o
+
+.PHONY : src/compound3dObject/GridSystem.o
+
+# target to build an object file
+src/compound3dObject/GridSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/GridSystem.cpp.o
+.PHONY : src/compound3dObject/GridSystem.cpp.o
+
+src/compound3dObject/GridSystem.i: src/compound3dObject/GridSystem.cpp.i
+
+.PHONY : src/compound3dObject/GridSystem.i
+
+# target to preprocess a source file
+src/compound3dObject/GridSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/GridSystem.cpp.i
+.PHONY : src/compound3dObject/GridSystem.cpp.i
+
+src/compound3dObject/GridSystem.s: src/compound3dObject/GridSystem.cpp.s
+
+.PHONY : src/compound3dObject/GridSystem.s
+
+# target to generate assembly for a file
+src/compound3dObject/GridSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/GridSystem.cpp.s
+.PHONY : src/compound3dObject/GridSystem.cpp.s
+
+src/compound3dObject/Prism.o: src/compound3dObject/Prism.cpp.o
+
+.PHONY : src/compound3dObject/Prism.o
+
+# target to build an object file
+src/compound3dObject/Prism.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Prism.cpp.o
+.PHONY : src/compound3dObject/Prism.cpp.o
+
+src/compound3dObject/Prism.i: src/compound3dObject/Prism.cpp.i
+
+.PHONY : src/compound3dObject/Prism.i
+
+# target to preprocess a source file
+src/compound3dObject/Prism.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Prism.cpp.i
+.PHONY : src/compound3dObject/Prism.cpp.i
+
+src/compound3dObject/Prism.s: src/compound3dObject/Prism.cpp.s
+
+.PHONY : src/compound3dObject/Prism.s
+
+# target to generate assembly for a file
+src/compound3dObject/Prism.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Prism.cpp.s
+.PHONY : src/compound3dObject/Prism.cpp.s
+
+src/compound3dObject/Sphere.o: src/compound3dObject/Sphere.cpp.o
+
+.PHONY : src/compound3dObject/Sphere.o
+
+# target to build an object file
+src/compound3dObject/Sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Sphere.cpp.o
+.PHONY : src/compound3dObject/Sphere.cpp.o
+
+src/compound3dObject/Sphere.i: src/compound3dObject/Sphere.cpp.i
+
+.PHONY : src/compound3dObject/Sphere.i
+
+# target to preprocess a source file
+src/compound3dObject/Sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Sphere.cpp.i
+.PHONY : src/compound3dObject/Sphere.cpp.i
+
+src/compound3dObject/Sphere.s: src/compound3dObject/Sphere.cpp.s
+
+.PHONY : src/compound3dObject/Sphere.s
+
+# target to generate assembly for a file
+src/compound3dObject/Sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Sphere.cpp.s
+.PHONY : src/compound3dObject/Sphere.cpp.s
+
 src/models/Line.o: src/models/Line.cpp.o
 
 .PHONY : src/models/Line.o
@@ -965,6 +1046,15 @@ help:
 	@echo "... src/compound3dObject/Cube.o"
 	@echo "... src/compound3dObject/Cube.i"
 	@echo "... src/compound3dObject/Cube.s"
+	@echo "... src/compound3dObject/GridSystem.o"
+	@echo "... src/compound3dObject/GridSystem.i"
+	@echo "... src/compound3dObject/GridSystem.s"
+	@echo "... src/compound3dObject/Prism.o"
+	@echo "... src/compound3dObject/Prism.i"
+	@echo "... src/compound3dObject/Prism.s"
+	@echo "... src/compound3dObject/Sphere.o"
+	@echo "... src/compound3dObject/Sphere.i"
+	@echo "... src/compound3dObject/Sphere.s"
 	@echo "... src/models/Line.o"
 	@echo "... src/models/Line.i"
 	@echo "... src/models/Line.s"
