@@ -15,3 +15,10 @@ Vertex::Vertex(Position p, Color c, TextureCoord tc) {
     this->color=c;
     this->textureCoord = tc;
 }
+
+Vertex::Vertex(Position p, Color c, TextureCoord tc, Normal normal) {
+    this->position = p;
+    this->color=c;
+    this->textureCoord = tc;
+    this->normal= normal;
+}

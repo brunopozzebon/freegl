@@ -3,6 +3,7 @@
 
 CMakeFiles/freegl.dir/main.cpp.o: ../main.cpp
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Vertex.h
@@ -412,6 +413,9 @@ CMakeFiles/freegl.dir/src/basics/Color.cpp.o: ../src/basics/Color.cpp
 CMakeFiles/freegl.dir/src/basics/Color.cpp.o: ../src/basics/Color.h
 CMakeFiles/freegl.dir/src/basics/Color.cpp.o: ../src/utils/Convertion.h
 
+CMakeFiles/freegl.dir/src/basics/Normal.cpp.o: ../src/basics/Normal.cpp
+CMakeFiles/freegl.dir/src/basics/Normal.cpp.o: ../src/basics/Normal.h
+
 CMakeFiles/freegl.dir/src/basics/Position.cpp.o: ../src/basics/Position.cpp
 CMakeFiles/freegl.dir/src/basics/Position.cpp.o: ../src/basics/Position.h
 
@@ -419,6 +423,7 @@ CMakeFiles/freegl.dir/src/basics/TextureCoord.cpp.o: ../src/basics/TextureCoord.
 CMakeFiles/freegl.dir/src/basics/TextureCoord.cpp.o: ../src/basics/TextureCoord.h
 
 CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o: ../src/basics/Vertex.cpp
@@ -812,6 +817,7 @@ CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o: ../src/utils/glm/vec4
 CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o: ../src/utils/glm/vector_relational.hpp
 
 CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o: ../src/basics/Vertex.h
@@ -826,6 +832,7 @@ CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o: ../src/raw/VertexBuffer.h
 CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Vertex.h
@@ -839,6 +846,7 @@ CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/raw/VertexBuffer.h
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/models/Plane.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/models/Plane.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/models/Plane.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/models/Plane.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/src/models/Plane.cpp.o: ../src/basics/Vertex.h
@@ -864,6 +872,7 @@ CMakeFiles/freegl.dir/src/raw/Interface.cpp.o: ../src/utils/imgui/imgui_impl_glf
 CMakeFiles/freegl.dir/src/raw/Interface.cpp.o: ../src/utils/imgui/imgui_impl_opengl3.h
 
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Vertex.h
@@ -1268,6 +1277,7 @@ CMakeFiles/freegl.dir/src/raw/Texture.cpp.o: ../src/raw/Texture.h
 CMakeFiles/freegl.dir/src/raw/Texture.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/raw/VertexArray.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/raw/VertexArray.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/raw/VertexArray.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/raw/VertexArray.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/src/raw/VertexArray.cpp.o: ../src/basics/Vertex.h
@@ -1280,6 +1290,7 @@ CMakeFiles/freegl.dir/src/raw/VertexArrayLayout.cpp.o: ../src/raw/VertexArrayLay
 CMakeFiles/freegl.dir/src/raw/VertexArrayLayout.cpp.o: ../src/raw/VertexArrayLayout.h
 
 CMakeFiles/freegl.dir/src/raw/VertexBuffer.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/raw/VertexBuffer.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/raw/VertexBuffer.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/raw/VertexBuffer.cpp.o: ../src/basics/TextureCoord.h
 CMakeFiles/freegl.dir/src/raw/VertexBuffer.cpp.o: ../src/basics/Vertex.h

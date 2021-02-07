@@ -8,17 +8,26 @@
 #include "src/raw/Interface.h"
 
 OrthographicCamera *camera;
+bool canTurn = false;
 
 void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
-    camera->mouseMove(xpos, ypos);
+    if(canTurn)
+        camera->mouseMove(xpos, ypos);
 }
 
 void mouseScrool(GLFWwindow *window, double xpos, double ypos) {
     camera->setFov(ypos);
 }
 
-void listenInput(GLFWwindow *window) {
+void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
+{
+    if (button == GLFW_MOUSE_BUTTON_RIGHT && action == GLFW_PRESS)
+        canTurn = true;
+    else
+        canTurn = false;
+}
 
+void listenInput(GLFWwindow *window) {
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
         camera->moveFront();
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
@@ -40,13 +49,15 @@ int main(void) {
 
     glfwSetCursorPosCallback(window.getWindow(), mouse_callback);
     glfwSetScrollCallback(window.getWindow(), mouseScrool);
+    glfwSetMouseButtonCallback(window.getWindow(), mouse_button_callback);
 
     vector<Mesh *> meshes;
 
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            Cube *cube = new Cube(Position(i * 30, j * 30, 0), Color::Yellow,20, 20, 20);
-            meshes.push_back(cube);
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+                Cube *cube = new Cube(Position(i * 30, j * 30, 0), Color::Yellow, 20, 20, 20);
+                meshes.push_back(cube);
+
         }
     }
 
@@ -59,12 +70,16 @@ int main(void) {
 
     Interface interface(window);
 
-
+    glm::mat4 model = glm::mat4(1.0f);
     while (window.isOpen()) {
         interface.newFrame();
         ImGui::Text("Application average %.3f ms/frame)", 1000.0f);
 
-        shader.setUniform4Mat("u_MVP", camera->getView());
+        model = glm::rotate(model, glm::radians(0.1f), glm::vec3(0.0f, 1.0f, 0.0f));
+
+        shader.setUniform4Mat("u_VP", camera->getView());
+        shader.setUniform4Mat("u_model", model);
+        shader.setUniform3Vec("u_viewPos", camera->getPosition());
 
         listenInput(window.getWindow());
 

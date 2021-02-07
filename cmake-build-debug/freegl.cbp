@@ -91,6 +91,12 @@
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/Color.h">
 			<Option target="freegl"/>
 		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/Normal.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/Normal.h">
+			<Option target="freegl"/>
+		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/Position.cpp">
 			<Option target="freegl"/>
 		</Unit>

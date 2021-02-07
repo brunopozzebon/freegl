@@ -16,6 +16,8 @@ void Mesh::init(){
     vertexArrayLayout.push(4);
     vertexArrayLayout.push(2);
 
+    vertexArrayLayout.push(3);
+
     vertexArray = new VertexArray();
     vertexArray->addBuffer(vertexBuffer, &vertexArrayLayout);
 

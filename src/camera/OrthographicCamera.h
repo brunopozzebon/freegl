@@ -19,8 +19,9 @@ private:
 
     glm::mat4 projection, view;
     Window window;
-    glm::vec3 cameraPos, cameraFront, cameraUp;
+    glm::vec3 cameraPos, cameraFront, cameraUp, direction;
     bool firstMouse;
+
     float fov, yaw, pitch, lastX, lastY;
 
 public:
@@ -42,6 +43,8 @@ public:
     void setFov(float yoffset);
 
     void mouseMove(double xpos, double ypos);
+
+    inline glm::vec3 getPosition(){return this->cameraPos;}
 
 };
 

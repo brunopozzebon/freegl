@@ -28,6 +28,8 @@ src/raw/Interface.h
 string
 /home/bruno/CLionProjects/freegl/src/basics/string
 
+/home/bruno/CLionProjects/freegl/src/basics/Normal.h
+
 /home/bruno/CLionProjects/freegl/src/basics/Position.h
 
 /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -39,6 +41,12 @@ TextureCoord.h
 /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
 Position.h
 /home/bruno/CLionProjects/freegl/src/basics/Position.h
+Normal.h
+/home/bruno/CLionProjects/freegl/src/basics/Normal.h
+
+/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.cpp
+OrthographicCamera.h
+/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h
 
 /home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h
 ../utils/glm/ext.hpp

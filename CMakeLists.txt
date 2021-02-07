@@ -57,6 +57,6 @@ add_executable(
 
         src/compound3dObject/Cube.h
         src/compound3dObject/Cube.cpp
-        src/utils/Convertion.h)
+        src/utils/Convertion.h src/basics/Normal.cpp src/basics/Normal.h)
 
 target_link_libraries(freegl -lglut -lglfw -lGLEW -lGL -lGLU)

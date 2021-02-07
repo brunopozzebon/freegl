@@ -33,6 +33,7 @@ public:
     void setUniform4f(const string name, float a, float b, float c, float d);
     void setUniform1i(const string name, int a);
     void setUniform4Mat(const string name, glm::mat4 matrix);
+    void setUniform3Vec(const string name, glm::vec3 vec);
 
     GLint getLocation(const string& name);
 };

@@ -197,6 +197,33 @@ src/basics/Color.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Color.cpp.s
 .PHONY : src/basics/Color.cpp.s
 
+src/basics/Normal.o: src/basics/Normal.cpp.o
+
+.PHONY : src/basics/Normal.o
+
+# target to build an object file
+src/basics/Normal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Normal.cpp.o
+.PHONY : src/basics/Normal.cpp.o
+
+src/basics/Normal.i: src/basics/Normal.cpp.i
+
+.PHONY : src/basics/Normal.i
+
+# target to preprocess a source file
+src/basics/Normal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Normal.cpp.i
+.PHONY : src/basics/Normal.cpp.i
+
+src/basics/Normal.s: src/basics/Normal.cpp.s
+
+.PHONY : src/basics/Normal.s
+
+# target to generate assembly for a file
+src/basics/Normal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Normal.cpp.s
+.PHONY : src/basics/Normal.cpp.s
+
 src/basics/Position.o: src/basics/Position.cpp.o
 
 .PHONY : src/basics/Position.o
@@ -833,6 +860,9 @@ help:
 	@echo "... src/basics/Color.o"
 	@echo "... src/basics/Color.i"
 	@echo "... src/basics/Color.s"
+	@echo "... src/basics/Normal.o"
+	@echo "... src/basics/Normal.i"
+	@echo "... src/basics/Normal.s"
 	@echo "... src/basics/Position.o"
 	@echo "... src/basics/Position.i"
 	@echo "... src/basics/Position.s"

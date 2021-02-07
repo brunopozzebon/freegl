@@ -9,16 +9,20 @@
 #include "Color.h"
 #include "TextureCoord.h"
 #include "Position.h"
+#include "Normal.h"
 
 class Vertex {
 private:
     Position position;
     Color color;
     TextureCoord textureCoord;
+    Normal normal;
 
 public:
     Vertex(Position p, Color c);
     Vertex(Position p, Color c, TextureCoord tc);
+    Vertex(Position p, Color c, TextureCoord tc, Normal n);
+
 };
 
 

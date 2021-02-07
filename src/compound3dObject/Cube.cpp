@@ -23,90 +23,65 @@ Cube::Cube(Position position, Color color, int width, int height, int depth) : M
     float zPlusHalfDepth = zPosition + halfDepth;
 
     vector<Vertex> v = {
-            //Plane A
+            //Plane A Frente
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomLeft, Normal::Front),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopLeft, Normal::Front),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(1.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopRight, Normal::Front),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(1.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomRight, Normal::Front),
 
-            //Plane B
+            //Plane B Tras
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(0.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomLeft, Normal::Back),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(0.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopLeft, Normal::Back),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopRight, Normal::Back),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomRight, Normal::Back),
 
-            //Plane C
+            //Plane C Topo
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomLeft, Normal::Top),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopLeft, Normal::Top),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopRight, Normal::Top),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomRight, Normal::Top),
 
-            //Plane D
+            //Plane D Base
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomLeft, Normal::Bottom),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopLeft, Normal::Bottom),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopRight,Normal::Bottom),
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomRight, Normal::Bottom),
 
-            //Plane E
+            //Plane E Right
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomLeft, Normal::Right),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopLeft, Normal::Right),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopRight, Normal::Right),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomRight, Normal::Right),
 
-            //Plane F
+            //Plane F Left
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 0.0f)
-            ),
+                   color, TextureCoord::BottomLeft, Normal::Left),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord(0.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopLeft, Normal::Left),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 1.0f)
-            ),
+                   color, TextureCoord::TopRight, Normal::Left),
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord(1.0f, 0.0f)
-            ),
-
+                   color, TextureCoord::BottomRight, Normal::Left),
     };
 
     setVertices(v);
@@ -115,23 +90,18 @@ Cube::Cube(Position position, Color color, int width, int height, int depth) : M
             //Plane A
             0, 1, 2,
             2, 3, 0,
-
             //Place B
             4, 5, 6,
             6, 7, 4,
-
             //Place C
             8, 9, 10,
             10, 11, 8,
-
             //Place D
             12, 13, 14,
             14, 15, 12,
-
             //Place E
             16, 17, 18,
             18, 19, 16,
-
             //Place F
             20, 21, 22,
             22, 23, 20

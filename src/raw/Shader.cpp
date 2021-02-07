@@ -77,6 +77,11 @@ void Shader::setUniform1i(const string name, int a) {
     glUniform1i(location, a);
 }
 
+void Shader::setUniform3Vec(const string name, glm::vec3 vec) {
+    GLint location = getLocation(name);
+    glUniform3f(location, vec.x, vec.y, vec.z);
+}
+
 void Shader::setUniform4Mat(const string name, glm::mat4 matrix) {
     GLint location = getLocation(name);
     glUniformMatrix4fv(location, 1, GL_FALSE, &matrix[0][0]);

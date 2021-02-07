@@ -16,6 +16,10 @@ public:
     inline float getS(){return this->s;}
     inline float getT(){return this->t;}
 
+    static TextureCoord TopLeft;
+    static TextureCoord TopRight;
+    static TextureCoord BottomRight;
+    static TextureCoord BottomLeft;
 };
 
 

@@ -6,13 +6,16 @@
 
 Plane::Plane(Position position, Color color, int width, int height) : position(position), width(width), height(height), Mesh(position, color){
 
-    vector<Vertex> v = {
-            //x     y           z      r        g       b       s         t
-            Vertex(Position(position.getX() - width/2, position.getY() - height/2),color),
-            Vertex(Position(position.getX() - width/2, position.getY() + height/2),color),
-            Vertex(Position(position.getX() + width/2, position.getY() + height/2),color),
-            Vertex(Position(position.getX() + width/2, position.getY() - height/2),color),
+    float xMinusHalfWidth = position.getX() - width/2;
+    float xPlusHalfWidth = position.getX() + width/2;
+    float yMinusHalfHeight = position.getY() - height/2;
+    float yPlusHalfHeight = position.getY() + height/2;
 
+    vector<Vertex> v = {
+            Vertex(Position(xMinusHalfWidth, yMinusHalfHeight),color),
+            Vertex(Position(xMinusHalfWidth, yPlusHalfHeight),color),
+            Vertex(Position(xPlusHalfWidth, yMinusHalfHeight),color),
+            Vertex(Position(xPlusHalfWidth, yPlusHalfHeight),color),
     };
 
     setVertices(v);
