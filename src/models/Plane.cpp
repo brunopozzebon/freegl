@@ -12,10 +12,10 @@ Plane::Plane(Position position, Color color, int width, int height) : position(p
     float yPlusHalfHeight = position.getY() + height/2;
 
     vector<Vertex> v = {
-            Vertex(Position(xMinusHalfWidth, yMinusHalfHeight),color),
-            Vertex(Position(xMinusHalfWidth, yPlusHalfHeight),color),
-            Vertex(Position(xPlusHalfWidth, yMinusHalfHeight),color),
-            Vertex(Position(xPlusHalfWidth, yPlusHalfHeight),color),
+            Vertex(Position(xMinusHalfWidth, yMinusHalfHeight),color, TextureCoord::BottomLeft),
+            Vertex(Position(xMinusHalfWidth, yPlusHalfHeight),color, TextureCoord::TopLeft),
+            Vertex(Position(xPlusHalfWidth, yPlusHalfHeight),color,TextureCoord::TopRight),
+            Vertex(Position(xPlusHalfWidth, yMinusHalfHeight),color, TextureCoord::BottomRight),
     };
 
     setVertices(v);

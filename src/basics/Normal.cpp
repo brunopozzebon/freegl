@@ -17,7 +17,7 @@ Normal::Normal() {
 }
 
 Normal Normal::Back = Normal(0.0f, 0.0f, -1.0f);
-Normal Normal::Front = Normal(0.0f, 0.0f, -1.0f);
+Normal Normal::Front = Normal(0.0f, 0.0f, 1.0f);
 Normal Normal::Right = Normal(1.0f, 0.0f, 0.0f);
 Normal Normal::Left = Normal(-1.0f, 0.0f, 0.0f);
 Normal Normal::Top = Normal(0.0f, 1.0f, 0.0f);

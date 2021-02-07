@@ -52,10 +52,6 @@ Position.h
 Normal.h
 /home/bruno/CLionProjects/freegl/src/basics/Normal.h
 
-/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp
-PerspectiveCamera.h
-/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
-
 /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
 ../raw/Window.h
 /home/bruno/CLionProjects/freegl/src/raw/Window.h

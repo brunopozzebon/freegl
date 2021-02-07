@@ -62,19 +62,22 @@ int main(void) {
         for (int j = 0; j < 3; j++) {
             Cube *cube = new Cube(Position(i * 30, j * 30, 0), Color::Yellow, 20, 20, 20);
             meshes.push_back(cube);
-
         }
     }
+    Cube * plane= new Cube(Position(50,50,50), Color::Red, 10,10,10);
+    meshes.push_back(plane);
 
     Shader shader("../src/resources/shaders/vertexShader.glsl",
                   "../src/resources/shaders/fragmentShader.glsl");
     shader.bind();
     shader.setUniform1i("u_texture", 0);
+    shader.setUniform3Vec("u_light.color", glm::vec3(1.0f, 1.0f, 1.0f));
+    shader.setUniform3Vec("u_light.position", glm::vec3(50.0f, 50.0f, 50.0f));
 
     camera = new PerspectiveCamera(window);
     Interface interface(window);
 
-    glm::mat4 model = model = glm::rotate(glm::mat4(1.0), glm::radians(0.1f), glm::vec3(0.0f, 1.0f, 0.0f));
+    glm::mat4 model = glm::rotate(glm::mat4(1.0), glm::radians(0.1f), glm::vec3(0.0f, 1.0f, 0.0f));
 
 
     Shader shaderLine("../src/resources/shaders/linevertexShader.glsl",
@@ -93,9 +96,14 @@ int main(void) {
         ImGui::Text("Application average %.3f ms/frame)", 1000.0f);
 
         shader.bind();
-        shader.setUniform4Mat("u_VP", camera->getProjection() * camera->getView());
+        shader.setUniform4Mat("u_projection", camera->getProjection());
+        shader.setUniform4Mat("u_view", camera->getView());
+
+        model =  glm::rotate(model, glm::radians(0.1f), glm::vec3(0.0f, 1.0f, 0.0f));
+
         shader.setUniform4Mat("u_model", model);
-        shader.setUniform3Vec("u_viewPos", camera->getPosition());
+
+        shader.setUniform3Vec("u_camera_position", camera->getPosition());
 
         shader.bind();
         renderer.clear();
