@@ -14,7 +14,7 @@ using namespace std;
 
 class Renderer {
 public:
-    Renderer();
+    Renderer(Color color);
     void draw(vector<Mesh*> meshes);
     void clear();
 };

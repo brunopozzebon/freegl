@@ -251,6 +251,33 @@ src/basics/Position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Position.cpp.s
 .PHONY : src/basics/Position.cpp.s
 
+src/basics/SimpleVertex.o: src/basics/SimpleVertex.cpp.o
+
+.PHONY : src/basics/SimpleVertex.o
+
+# target to build an object file
+src/basics/SimpleVertex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o
+.PHONY : src/basics/SimpleVertex.cpp.o
+
+src/basics/SimpleVertex.i: src/basics/SimpleVertex.cpp.i
+
+.PHONY : src/basics/SimpleVertex.i
+
+# target to preprocess a source file
+src/basics/SimpleVertex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.i
+.PHONY : src/basics/SimpleVertex.cpp.i
+
+src/basics/SimpleVertex.s: src/basics/SimpleVertex.cpp.s
+
+.PHONY : src/basics/SimpleVertex.s
+
+# target to generate assembly for a file
+src/basics/SimpleVertex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.s
+.PHONY : src/basics/SimpleVertex.cpp.s
+
 src/basics/TextureCoord.o: src/basics/TextureCoord.cpp.o
 
 .PHONY : src/basics/TextureCoord.o
@@ -332,6 +359,33 @@ src/camera/OrthographicCamera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.s
 .PHONY : src/camera/OrthographicCamera.cpp.s
 
+src/camera/PerspectiveCamera.o: src/camera/PerspectiveCamera.cpp.o
+
+.PHONY : src/camera/PerspectiveCamera.o
+
+# target to build an object file
+src/camera/PerspectiveCamera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o
+.PHONY : src/camera/PerspectiveCamera.cpp.o
+
+src/camera/PerspectiveCamera.i: src/camera/PerspectiveCamera.cpp.i
+
+.PHONY : src/camera/PerspectiveCamera.i
+
+# target to preprocess a source file
+src/camera/PerspectiveCamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.i
+.PHONY : src/camera/PerspectiveCamera.cpp.i
+
+src/camera/PerspectiveCamera.s: src/camera/PerspectiveCamera.cpp.s
+
+.PHONY : src/camera/PerspectiveCamera.s
+
+# target to generate assembly for a file
+src/camera/PerspectiveCamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.s
+.PHONY : src/camera/PerspectiveCamera.cpp.s
+
 src/compound3dObject/Cube.o: src/compound3dObject/Cube.cpp.o
 
 .PHONY : src/compound3dObject/Cube.o
@@ -358,6 +412,33 @@ src/compound3dObject/Cube.s: src/compound3dObject/Cube.cpp.s
 src/compound3dObject/Cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.s
 .PHONY : src/compound3dObject/Cube.cpp.s
+
+src/models/Line.o: src/models/Line.cpp.o
+
+.PHONY : src/models/Line.o
+
+# target to build an object file
+src/models/Line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/models/Line.cpp.o
+.PHONY : src/models/Line.cpp.o
+
+src/models/Line.i: src/models/Line.cpp.i
+
+.PHONY : src/models/Line.i
+
+# target to preprocess a source file
+src/models/Line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/models/Line.cpp.i
+.PHONY : src/models/Line.cpp.i
+
+src/models/Line.s: src/models/Line.cpp.s
+
+.PHONY : src/models/Line.s
+
+# target to generate assembly for a file
+src/models/Line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/models/Line.cpp.s
+.PHONY : src/models/Line.cpp.s
 
 src/models/Mesh.o: src/models/Mesh.cpp.o
 
@@ -866,6 +947,9 @@ help:
 	@echo "... src/basics/Position.o"
 	@echo "... src/basics/Position.i"
 	@echo "... src/basics/Position.s"
+	@echo "... src/basics/SimpleVertex.o"
+	@echo "... src/basics/SimpleVertex.i"
+	@echo "... src/basics/SimpleVertex.s"
 	@echo "... src/basics/TextureCoord.o"
 	@echo "... src/basics/TextureCoord.i"
 	@echo "... src/basics/TextureCoord.s"
@@ -875,9 +959,15 @@ help:
 	@echo "... src/camera/OrthographicCamera.o"
 	@echo "... src/camera/OrthographicCamera.i"
 	@echo "... src/camera/OrthographicCamera.s"
+	@echo "... src/camera/PerspectiveCamera.o"
+	@echo "... src/camera/PerspectiveCamera.i"
+	@echo "... src/camera/PerspectiveCamera.s"
 	@echo "... src/compound3dObject/Cube.o"
 	@echo "... src/compound3dObject/Cube.i"
 	@echo "... src/compound3dObject/Cube.s"
+	@echo "... src/models/Line.o"
+	@echo "... src/models/Line.i"
+	@echo "... src/models/Line.s"
 	@echo "... src/models/Mesh.o"
 	@echo "... src/models/Mesh.i"
 	@echo "... src/models/Mesh.s"

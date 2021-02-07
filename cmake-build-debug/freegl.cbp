@@ -103,6 +103,12 @@
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/Position.h">
 			<Option target="freegl"/>
 		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.h">
+			<Option target="freegl"/>
+		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/TextureCoord.cpp">
 			<Option target="freegl"/>
 		</Unit>
@@ -121,10 +127,22 @@
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h">
 			<Option target="freegl"/>
 		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h">
+			<Option target="freegl"/>
+		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.cpp">
 			<Option target="freegl"/>
 		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Line.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Line.h">
 			<Option target="freegl"/>
 		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Mesh.cpp">

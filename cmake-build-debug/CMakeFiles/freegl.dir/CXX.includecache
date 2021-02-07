@@ -15,14 +15,16 @@ src/models/Plane.h
 /home/bruno/CLionProjects/freegl/src/models/Plane.h
 src/raw/Shader.h
 /home/bruno/CLionProjects/freegl/src/raw/Shader.h
-src/camera/OrthographicCamera.h
-/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h
+src/camera/PerspectiveCamera.h
+/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
 src/raw/Renderer.h
 /home/bruno/CLionProjects/freegl/src/raw/Renderer.h
 src/compound3dObject/Cube.h
 /home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.h
 src/raw/Interface.h
 /home/bruno/CLionProjects/freegl/src/raw/Interface.h
+src/models/Line.h
+/home/bruno/CLionProjects/freegl/src/models/Line.h
 
 /home/bruno/CLionProjects/freegl/src/basics/Color.h
 string
@@ -31,6 +33,12 @@ string
 /home/bruno/CLionProjects/freegl/src/basics/Normal.h
 
 /home/bruno/CLionProjects/freegl/src/basics/Position.h
+
+/home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.h
+Position.h
+/home/bruno/CLionProjects/freegl/src/basics/Position.h
+Color.h
+/home/bruno/CLionProjects/freegl/src/basics/Color.h
 
 /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
 
@@ -44,19 +52,31 @@ Position.h
 Normal.h
 /home/bruno/CLionProjects/freegl/src/basics/Normal.h
 
-/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.cpp
-OrthographicCamera.h
-/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h
+/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp
+PerspectiveCamera.h
+/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
 
-/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h
+/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
+../raw/Window.h
+/home/bruno/CLionProjects/freegl/src/raw/Window.h
+../utils/glm/vec3.hpp
+/home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
 ../utils/glm/ext.hpp
 /home/bruno/CLionProjects/freegl/src/utils/glm/ext.hpp
-../../../../CLionProjects/freegl/src/raw/Window.h
-/home/bruno/CLionProjects/freegl/src/raw/Window.h
 
 /home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.h
 ../models/Mesh.h
 /home/bruno/CLionProjects/freegl/src/models/Mesh.h
+
+/home/bruno/CLionProjects/freegl/src/models/Line.h
+../raw/VertexBuffer.h
+/home/bruno/CLionProjects/freegl/src/raw/VertexBuffer.h
+../raw/VertexArray.h
+/home/bruno/CLionProjects/freegl/src/raw/VertexArray.h
+../basics/SimpleVertex.h
+/home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.h
+../raw/Shader.h
+/home/bruno/CLionProjects/freegl/src/raw/Shader.h
 
 /home/bruno/CLionProjects/freegl/src/models/Mesh.h
 ../basics/Vertex.h

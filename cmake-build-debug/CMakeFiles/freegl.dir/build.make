@@ -415,6 +415,45 @@ CMakeFiles/freegl.dir/src/basics/Normal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/basics/Normal.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/basics/Normal.cpp -o CMakeFiles/freegl.dir/src/basics/Normal.cpp.s
 
+CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o: CMakeFiles/freegl.dir/flags.make
+CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o: ../src/camera/PerspectiveCamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o -c /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp
+
+CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp > CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.i
+
+CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp -o CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.s
+
+CMakeFiles/freegl.dir/src/models/Line.cpp.o: CMakeFiles/freegl.dir/flags.make
+CMakeFiles/freegl.dir/src/models/Line.cpp.o: ../src/models/Line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/freegl.dir/src/models/Line.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/models/Line.cpp.o -c /home/bruno/CLionProjects/freegl/src/models/Line.cpp
+
+CMakeFiles/freegl.dir/src/models/Line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freegl.dir/src/models/Line.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bruno/CLionProjects/freegl/src/models/Line.cpp > CMakeFiles/freegl.dir/src/models/Line.cpp.i
+
+CMakeFiles/freegl.dir/src/models/Line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/models/Line.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/models/Line.cpp -o CMakeFiles/freegl.dir/src/models/Line.cpp.s
+
+CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o: CMakeFiles/freegl.dir/flags.make
+CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o: ../src/basics/SimpleVertex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o -c /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.cpp
+
+CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.cpp > CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.i
+
+CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.cpp -o CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.s
+
 # Object files for target freegl
 freegl_OBJECTS = \
 "CMakeFiles/freegl.dir/main.cpp.o" \
@@ -442,7 +481,10 @@ freegl_OBJECTS = \
 "CMakeFiles/freegl.dir/src/models/Plane.cpp.o" \
 "CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o" \
 "CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o" \
-"CMakeFiles/freegl.dir/src/basics/Normal.cpp.o"
+"CMakeFiles/freegl.dir/src/basics/Normal.cpp.o" \
+"CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o" \
+"CMakeFiles/freegl.dir/src/models/Line.cpp.o" \
+"CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o"
 
 # External object files for target freegl
 freegl_EXTERNAL_OBJECTS =
@@ -473,9 +515,12 @@ freegl: CMakeFiles/freegl.dir/src/models/Plane.cpp.o
 freegl: CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o
 freegl: CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o
 freegl: CMakeFiles/freegl.dir/src/basics/Normal.cpp.o
+freegl: CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o
+freegl: CMakeFiles/freegl.dir/src/models/Line.cpp.o
+freegl: CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o
 freegl: CMakeFiles/freegl.dir/build.make
 freegl: CMakeFiles/freegl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable freegl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable freegl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freegl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

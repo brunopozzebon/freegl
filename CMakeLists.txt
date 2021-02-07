@@ -57,6 +57,6 @@ add_executable(
 
         src/compound3dObject/Cube.h
         src/compound3dObject/Cube.cpp
-        src/utils/Convertion.h src/basics/Normal.cpp src/basics/Normal.h)
+        src/utils/Convertion.h src/basics/Normal.cpp src/basics/Normal.h src/camera/PerspectiveCamera.cpp src/camera/PerspectiveCamera.h src/models/Line.cpp src/models/Line.h src/basics/SimpleVertex.cpp src/basics/SimpleVertex.h)
 
 target_link_libraries(freegl -lglut -lglfw -lGLEW -lGL -lGLU)
