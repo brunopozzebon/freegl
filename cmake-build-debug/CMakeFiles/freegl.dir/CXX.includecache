@@ -11,34 +11,46 @@ GL/glew.h
 -
 src/raw/Window.h
 /home/bruno/CLionProjects/freegl/src/raw/Window.h
-src/models/Plane.h
-/home/bruno/CLionProjects/freegl/src/models/Plane.h
+src/compound2dObjects/Plane.h
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Plane.h
 src/raw/Shader.h
 /home/bruno/CLionProjects/freegl/src/raw/Shader.h
 src/camera/PerspectiveCamera.h
 /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
 src/raw/Renderer.h
 /home/bruno/CLionProjects/freegl/src/raw/Renderer.h
-src/compound3dObject/Cube.h
-/home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.h
 src/raw/Interface.h
 /home/bruno/CLionProjects/freegl/src/raw/Interface.h
 src/models/Line.h
 /home/bruno/CLionProjects/freegl/src/models/Line.h
-src/compound3dObject/GridSystem.h
-/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.h
-src/compound3dObject/Sphere.h
-/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.h
-src/compound3dObject/Prism.h
-/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.h
+src/compound3dObjects/GridSystem.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/GridSystem.h
+src/compound3dObjects/Sphere.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Sphere.h
+src/compound3dObjects/Prism.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.h
+src/compound3dObjects/Pyramid.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Pyramid.h
+src/compound3dObjects/Cylinder.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cylinder.h
+src/compound3dObjects/Cone.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cone.h
+src/compound2dObjects/Circle.h
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.h
+src/compound2dObjects/Triangle.h
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Triangle.h
 
 /home/bruno/CLionProjects/freegl/src/basics/Color.h
 string
 /home/bruno/CLionProjects/freegl/src/basics/string
 
 /home/bruno/CLionProjects/freegl/src/basics/Normal.h
+iterator
+-
 
 /home/bruno/CLionProjects/freegl/src/basics/Position.h
+string
+-
 
 /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.h
 Position.h
@@ -66,19 +78,43 @@ Normal.h
 ../utils/glm/ext.hpp
 /home/bruno/CLionProjects/freegl/src/utils/glm/ext.hpp
 
-/home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.h
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.cpp
+Circle.h
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.h
+
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.h
 ../models/Mesh.h
 /home/bruno/CLionProjects/freegl/src/models/Mesh.h
 
-/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.h
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Plane.h
+../models/Mesh.h
+/home/bruno/CLionProjects/freegl/src/models/Mesh.h
+
+/home/bruno/CLionProjects/freegl/src/compound2dObjects/Triangle.h
+../models/Mesh.h
+/home/bruno/CLionProjects/freegl/src/models/Mesh.h
+
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cone.h
+Prism.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.h
+
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cylinder.h
+Prism.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.h
+
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/GridSystem.h
 ../models/Line.h
 /home/bruno/CLionProjects/freegl/src/models/Line.h
 
-/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.h
 ../models/Mesh.h
 /home/bruno/CLionProjects/freegl/src/models/Mesh.h
 
-/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Pyramid.h
+Prism.h
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.h
+
+/home/bruno/CLionProjects/freegl/src/compound3dObjects/Sphere.h
 ../models/Mesh.h
 /home/bruno/CLionProjects/freegl/src/models/Mesh.h
 
@@ -113,10 +149,6 @@ vector
 /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h
 ../raw/Shader.h
 /home/bruno/CLionProjects/freegl/src/raw/Shader.h
-
-/home/bruno/CLionProjects/freegl/src/models/Plane.h
-Mesh.h
-/home/bruno/CLionProjects/freegl/src/models/Mesh.h
 
 /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h
 GL/glew.h

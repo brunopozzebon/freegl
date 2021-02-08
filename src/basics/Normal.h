@@ -6,6 +6,8 @@
 #define FREEGL_NORMAL_H
 
 
+#include <iterator>
+
 class Normal {
 private:
     float x;
@@ -22,6 +24,9 @@ public:
     static Normal Right;
     static Normal Left;
 
+    inline std::string toString(){
+        return "\n\tx: "+ std::to_string(x) + "y: "+ std::to_string(y) + "z: "+ std::to_string(z);
+    }
 };
 
 

@@ -23,6 +23,10 @@ public:
     Vertex(Position p, Color c, TextureCoord tc);
     Vertex(Position p, Color c, TextureCoord tc, Normal n);
 
+    inline string toString(){
+        return position.toString() + " " + color.toString() + " " + normal.toString();
+    }
+
 };
 
 

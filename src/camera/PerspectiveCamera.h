@@ -32,7 +32,7 @@ public:
 
     static void updatePhi(float delta) {
         float newValue = phi-delta;
-        if(newValue > 0 && newValue<90){
+        if(newValue > 0 && newValue<130){
             phi =newValue;
         }
     }

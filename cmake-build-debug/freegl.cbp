@@ -133,28 +133,64 @@
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.cpp">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.cpp">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Cube.h">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.h">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.cpp">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound2dObjects/Plane.cpp">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/GridSystem.h">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound2dObjects/Plane.h">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.cpp">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound2dObjects/Triangle.cpp">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Prism.h">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound2dObjects/Triangle.h">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.cpp">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cone.cpp">
 			<Option target="freegl"/>
 		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObject/Sphere.h">
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cone.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cube.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cube.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cylinder.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Cylinder.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/GridSystem.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/GridSystem.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Pyramid.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Pyramid.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Sphere.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Sphere.h">
 			<Option target="freegl"/>
 		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Line.cpp">
@@ -167,12 +203,6 @@
 			<Option target="freegl"/>
 		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Mesh.h">
-			<Option target="freegl"/>
-		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Plane.cpp">
-			<Option target="freegl"/>
-		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Plane.h">
 			<Option target="freegl"/>
 		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.cpp">

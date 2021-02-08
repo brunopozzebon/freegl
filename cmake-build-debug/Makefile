@@ -386,113 +386,275 @@ src/camera/PerspectiveCamera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.s
 .PHONY : src/camera/PerspectiveCamera.cpp.s
 
-src/compound3dObject/Cube.o: src/compound3dObject/Cube.cpp.o
+src/compound2dObjects/Circle.o: src/compound2dObjects/Circle.cpp.o
 
-.PHONY : src/compound3dObject/Cube.o
-
-# target to build an object file
-src/compound3dObject/Cube.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.o
-.PHONY : src/compound3dObject/Cube.cpp.o
-
-src/compound3dObject/Cube.i: src/compound3dObject/Cube.cpp.i
-
-.PHONY : src/compound3dObject/Cube.i
-
-# target to preprocess a source file
-src/compound3dObject/Cube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.i
-.PHONY : src/compound3dObject/Cube.cpp.i
-
-src/compound3dObject/Cube.s: src/compound3dObject/Cube.cpp.s
-
-.PHONY : src/compound3dObject/Cube.s
-
-# target to generate assembly for a file
-src/compound3dObject/Cube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Cube.cpp.s
-.PHONY : src/compound3dObject/Cube.cpp.s
-
-src/compound3dObject/GridSystem.o: src/compound3dObject/GridSystem.cpp.o
-
-.PHONY : src/compound3dObject/GridSystem.o
+.PHONY : src/compound2dObjects/Circle.o
 
 # target to build an object file
-src/compound3dObject/GridSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/GridSystem.cpp.o
-.PHONY : src/compound3dObject/GridSystem.cpp.o
+src/compound2dObjects/Circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o
+.PHONY : src/compound2dObjects/Circle.cpp.o
 
-src/compound3dObject/GridSystem.i: src/compound3dObject/GridSystem.cpp.i
+src/compound2dObjects/Circle.i: src/compound2dObjects/Circle.cpp.i
 
-.PHONY : src/compound3dObject/GridSystem.i
+.PHONY : src/compound2dObjects/Circle.i
 
 # target to preprocess a source file
-src/compound3dObject/GridSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/GridSystem.cpp.i
-.PHONY : src/compound3dObject/GridSystem.cpp.i
+src/compound2dObjects/Circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.i
+.PHONY : src/compound2dObjects/Circle.cpp.i
 
-src/compound3dObject/GridSystem.s: src/compound3dObject/GridSystem.cpp.s
+src/compound2dObjects/Circle.s: src/compound2dObjects/Circle.cpp.s
 
-.PHONY : src/compound3dObject/GridSystem.s
+.PHONY : src/compound2dObjects/Circle.s
 
 # target to generate assembly for a file
-src/compound3dObject/GridSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/GridSystem.cpp.s
-.PHONY : src/compound3dObject/GridSystem.cpp.s
+src/compound2dObjects/Circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.s
+.PHONY : src/compound2dObjects/Circle.cpp.s
 
-src/compound3dObject/Prism.o: src/compound3dObject/Prism.cpp.o
+src/compound2dObjects/Plane.o: src/compound2dObjects/Plane.cpp.o
 
-.PHONY : src/compound3dObject/Prism.o
+.PHONY : src/compound2dObjects/Plane.o
 
 # target to build an object file
-src/compound3dObject/Prism.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Prism.cpp.o
-.PHONY : src/compound3dObject/Prism.cpp.o
+src/compound2dObjects/Plane.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o
+.PHONY : src/compound2dObjects/Plane.cpp.o
 
-src/compound3dObject/Prism.i: src/compound3dObject/Prism.cpp.i
+src/compound2dObjects/Plane.i: src/compound2dObjects/Plane.cpp.i
 
-.PHONY : src/compound3dObject/Prism.i
+.PHONY : src/compound2dObjects/Plane.i
 
 # target to preprocess a source file
-src/compound3dObject/Prism.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Prism.cpp.i
-.PHONY : src/compound3dObject/Prism.cpp.i
+src/compound2dObjects/Plane.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.i
+.PHONY : src/compound2dObjects/Plane.cpp.i
 
-src/compound3dObject/Prism.s: src/compound3dObject/Prism.cpp.s
+src/compound2dObjects/Plane.s: src/compound2dObjects/Plane.cpp.s
 
-.PHONY : src/compound3dObject/Prism.s
+.PHONY : src/compound2dObjects/Plane.s
 
 # target to generate assembly for a file
-src/compound3dObject/Prism.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Prism.cpp.s
-.PHONY : src/compound3dObject/Prism.cpp.s
+src/compound2dObjects/Plane.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.s
+.PHONY : src/compound2dObjects/Plane.cpp.s
 
-src/compound3dObject/Sphere.o: src/compound3dObject/Sphere.cpp.o
+src/compound2dObjects/Triangle.o: src/compound2dObjects/Triangle.cpp.o
 
-.PHONY : src/compound3dObject/Sphere.o
+.PHONY : src/compound2dObjects/Triangle.o
 
 # target to build an object file
-src/compound3dObject/Sphere.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Sphere.cpp.o
-.PHONY : src/compound3dObject/Sphere.cpp.o
+src/compound2dObjects/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o
+.PHONY : src/compound2dObjects/Triangle.cpp.o
 
-src/compound3dObject/Sphere.i: src/compound3dObject/Sphere.cpp.i
+src/compound2dObjects/Triangle.i: src/compound2dObjects/Triangle.cpp.i
 
-.PHONY : src/compound3dObject/Sphere.i
+.PHONY : src/compound2dObjects/Triangle.i
 
 # target to preprocess a source file
-src/compound3dObject/Sphere.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Sphere.cpp.i
-.PHONY : src/compound3dObject/Sphere.cpp.i
+src/compound2dObjects/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.i
+.PHONY : src/compound2dObjects/Triangle.cpp.i
 
-src/compound3dObject/Sphere.s: src/compound3dObject/Sphere.cpp.s
+src/compound2dObjects/Triangle.s: src/compound2dObjects/Triangle.cpp.s
 
-.PHONY : src/compound3dObject/Sphere.s
+.PHONY : src/compound2dObjects/Triangle.s
 
 # target to generate assembly for a file
-src/compound3dObject/Sphere.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObject/Sphere.cpp.s
-.PHONY : src/compound3dObject/Sphere.cpp.s
+src/compound2dObjects/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.s
+.PHONY : src/compound2dObjects/Triangle.cpp.s
+
+src/compound3dObjects/Cone.o: src/compound3dObjects/Cone.cpp.o
+
+.PHONY : src/compound3dObjects/Cone.o
+
+# target to build an object file
+src/compound3dObjects/Cone.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o
+.PHONY : src/compound3dObjects/Cone.cpp.o
+
+src/compound3dObjects/Cone.i: src/compound3dObjects/Cone.cpp.i
+
+.PHONY : src/compound3dObjects/Cone.i
+
+# target to preprocess a source file
+src/compound3dObjects/Cone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.i
+.PHONY : src/compound3dObjects/Cone.cpp.i
+
+src/compound3dObjects/Cone.s: src/compound3dObjects/Cone.cpp.s
+
+.PHONY : src/compound3dObjects/Cone.s
+
+# target to generate assembly for a file
+src/compound3dObjects/Cone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.s
+.PHONY : src/compound3dObjects/Cone.cpp.s
+
+src/compound3dObjects/Cube.o: src/compound3dObjects/Cube.cpp.o
+
+.PHONY : src/compound3dObjects/Cube.o
+
+# target to build an object file
+src/compound3dObjects/Cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o
+.PHONY : src/compound3dObjects/Cube.cpp.o
+
+src/compound3dObjects/Cube.i: src/compound3dObjects/Cube.cpp.i
+
+.PHONY : src/compound3dObjects/Cube.i
+
+# target to preprocess a source file
+src/compound3dObjects/Cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.i
+.PHONY : src/compound3dObjects/Cube.cpp.i
+
+src/compound3dObjects/Cube.s: src/compound3dObjects/Cube.cpp.s
+
+.PHONY : src/compound3dObjects/Cube.s
+
+# target to generate assembly for a file
+src/compound3dObjects/Cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.s
+.PHONY : src/compound3dObjects/Cube.cpp.s
+
+src/compound3dObjects/Cylinder.o: src/compound3dObjects/Cylinder.cpp.o
+
+.PHONY : src/compound3dObjects/Cylinder.o
+
+# target to build an object file
+src/compound3dObjects/Cylinder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o
+.PHONY : src/compound3dObjects/Cylinder.cpp.o
+
+src/compound3dObjects/Cylinder.i: src/compound3dObjects/Cylinder.cpp.i
+
+.PHONY : src/compound3dObjects/Cylinder.i
+
+# target to preprocess a source file
+src/compound3dObjects/Cylinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.i
+.PHONY : src/compound3dObjects/Cylinder.cpp.i
+
+src/compound3dObjects/Cylinder.s: src/compound3dObjects/Cylinder.cpp.s
+
+.PHONY : src/compound3dObjects/Cylinder.s
+
+# target to generate assembly for a file
+src/compound3dObjects/Cylinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.s
+.PHONY : src/compound3dObjects/Cylinder.cpp.s
+
+src/compound3dObjects/GridSystem.o: src/compound3dObjects/GridSystem.cpp.o
+
+.PHONY : src/compound3dObjects/GridSystem.o
+
+# target to build an object file
+src/compound3dObjects/GridSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o
+.PHONY : src/compound3dObjects/GridSystem.cpp.o
+
+src/compound3dObjects/GridSystem.i: src/compound3dObjects/GridSystem.cpp.i
+
+.PHONY : src/compound3dObjects/GridSystem.i
+
+# target to preprocess a source file
+src/compound3dObjects/GridSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.i
+.PHONY : src/compound3dObjects/GridSystem.cpp.i
+
+src/compound3dObjects/GridSystem.s: src/compound3dObjects/GridSystem.cpp.s
+
+.PHONY : src/compound3dObjects/GridSystem.s
+
+# target to generate assembly for a file
+src/compound3dObjects/GridSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.s
+.PHONY : src/compound3dObjects/GridSystem.cpp.s
+
+src/compound3dObjects/Prism.o: src/compound3dObjects/Prism.cpp.o
+
+.PHONY : src/compound3dObjects/Prism.o
+
+# target to build an object file
+src/compound3dObjects/Prism.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o
+.PHONY : src/compound3dObjects/Prism.cpp.o
+
+src/compound3dObjects/Prism.i: src/compound3dObjects/Prism.cpp.i
+
+.PHONY : src/compound3dObjects/Prism.i
+
+# target to preprocess a source file
+src/compound3dObjects/Prism.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.i
+.PHONY : src/compound3dObjects/Prism.cpp.i
+
+src/compound3dObjects/Prism.s: src/compound3dObjects/Prism.cpp.s
+
+.PHONY : src/compound3dObjects/Prism.s
+
+# target to generate assembly for a file
+src/compound3dObjects/Prism.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.s
+.PHONY : src/compound3dObjects/Prism.cpp.s
+
+src/compound3dObjects/Pyramid.o: src/compound3dObjects/Pyramid.cpp.o
+
+.PHONY : src/compound3dObjects/Pyramid.o
+
+# target to build an object file
+src/compound3dObjects/Pyramid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o
+.PHONY : src/compound3dObjects/Pyramid.cpp.o
+
+src/compound3dObjects/Pyramid.i: src/compound3dObjects/Pyramid.cpp.i
+
+.PHONY : src/compound3dObjects/Pyramid.i
+
+# target to preprocess a source file
+src/compound3dObjects/Pyramid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.i
+.PHONY : src/compound3dObjects/Pyramid.cpp.i
+
+src/compound3dObjects/Pyramid.s: src/compound3dObjects/Pyramid.cpp.s
+
+.PHONY : src/compound3dObjects/Pyramid.s
+
+# target to generate assembly for a file
+src/compound3dObjects/Pyramid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.s
+.PHONY : src/compound3dObjects/Pyramid.cpp.s
+
+src/compound3dObjects/Sphere.o: src/compound3dObjects/Sphere.cpp.o
+
+.PHONY : src/compound3dObjects/Sphere.o
+
+# target to build an object file
+src/compound3dObjects/Sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o
+.PHONY : src/compound3dObjects/Sphere.cpp.o
+
+src/compound3dObjects/Sphere.i: src/compound3dObjects/Sphere.cpp.i
+
+.PHONY : src/compound3dObjects/Sphere.i
+
+# target to preprocess a source file
+src/compound3dObjects/Sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.i
+.PHONY : src/compound3dObjects/Sphere.cpp.i
+
+src/compound3dObjects/Sphere.s: src/compound3dObjects/Sphere.cpp.s
+
+.PHONY : src/compound3dObjects/Sphere.s
+
+# target to generate assembly for a file
+src/compound3dObjects/Sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.s
+.PHONY : src/compound3dObjects/Sphere.cpp.s
 
 src/models/Line.o: src/models/Line.cpp.o
 
@@ -547,33 +709,6 @@ src/models/Mesh.s: src/models/Mesh.cpp.s
 src/models/Mesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/models/Mesh.cpp.s
 .PHONY : src/models/Mesh.cpp.s
-
-src/models/Plane.o: src/models/Plane.cpp.o
-
-.PHONY : src/models/Plane.o
-
-# target to build an object file
-src/models/Plane.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/models/Plane.cpp.o
-.PHONY : src/models/Plane.cpp.o
-
-src/models/Plane.i: src/models/Plane.cpp.i
-
-.PHONY : src/models/Plane.i
-
-# target to preprocess a source file
-src/models/Plane.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/models/Plane.cpp.i
-.PHONY : src/models/Plane.cpp.i
-
-src/models/Plane.s: src/models/Plane.cpp.s
-
-.PHONY : src/models/Plane.s
-
-# target to generate assembly for a file
-src/models/Plane.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/models/Plane.cpp.s
-.PHONY : src/models/Plane.cpp.s
 
 src/raw/IndexBuffer.o: src/raw/IndexBuffer.cpp.o
 
@@ -1043,27 +1178,42 @@ help:
 	@echo "... src/camera/PerspectiveCamera.o"
 	@echo "... src/camera/PerspectiveCamera.i"
 	@echo "... src/camera/PerspectiveCamera.s"
-	@echo "... src/compound3dObject/Cube.o"
-	@echo "... src/compound3dObject/Cube.i"
-	@echo "... src/compound3dObject/Cube.s"
-	@echo "... src/compound3dObject/GridSystem.o"
-	@echo "... src/compound3dObject/GridSystem.i"
-	@echo "... src/compound3dObject/GridSystem.s"
-	@echo "... src/compound3dObject/Prism.o"
-	@echo "... src/compound3dObject/Prism.i"
-	@echo "... src/compound3dObject/Prism.s"
-	@echo "... src/compound3dObject/Sphere.o"
-	@echo "... src/compound3dObject/Sphere.i"
-	@echo "... src/compound3dObject/Sphere.s"
+	@echo "... src/compound2dObjects/Circle.o"
+	@echo "... src/compound2dObjects/Circle.i"
+	@echo "... src/compound2dObjects/Circle.s"
+	@echo "... src/compound2dObjects/Plane.o"
+	@echo "... src/compound2dObjects/Plane.i"
+	@echo "... src/compound2dObjects/Plane.s"
+	@echo "... src/compound2dObjects/Triangle.o"
+	@echo "... src/compound2dObjects/Triangle.i"
+	@echo "... src/compound2dObjects/Triangle.s"
+	@echo "... src/compound3dObjects/Cone.o"
+	@echo "... src/compound3dObjects/Cone.i"
+	@echo "... src/compound3dObjects/Cone.s"
+	@echo "... src/compound3dObjects/Cube.o"
+	@echo "... src/compound3dObjects/Cube.i"
+	@echo "... src/compound3dObjects/Cube.s"
+	@echo "... src/compound3dObjects/Cylinder.o"
+	@echo "... src/compound3dObjects/Cylinder.i"
+	@echo "... src/compound3dObjects/Cylinder.s"
+	@echo "... src/compound3dObjects/GridSystem.o"
+	@echo "... src/compound3dObjects/GridSystem.i"
+	@echo "... src/compound3dObjects/GridSystem.s"
+	@echo "... src/compound3dObjects/Prism.o"
+	@echo "... src/compound3dObjects/Prism.i"
+	@echo "... src/compound3dObjects/Prism.s"
+	@echo "... src/compound3dObjects/Pyramid.o"
+	@echo "... src/compound3dObjects/Pyramid.i"
+	@echo "... src/compound3dObjects/Pyramid.s"
+	@echo "... src/compound3dObjects/Sphere.o"
+	@echo "... src/compound3dObjects/Sphere.i"
+	@echo "... src/compound3dObjects/Sphere.s"
 	@echo "... src/models/Line.o"
 	@echo "... src/models/Line.i"
 	@echo "... src/models/Line.s"
 	@echo "... src/models/Mesh.o"
 	@echo "... src/models/Mesh.i"
 	@echo "... src/models/Mesh.s"
-	@echo "... src/models/Plane.o"
-	@echo "... src/models/Plane.i"
-	@echo "... src/models/Plane.s"
 	@echo "... src/raw/IndexBuffer.o"
 	@echo "... src/raw/IndexBuffer.i"
 	@echo "... src/raw/IndexBuffer.s"

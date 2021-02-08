@@ -1,19 +1,23 @@
 #include <GL/glew.h>
 #include "src/raw/Window.h"
-#include "src/models/Plane.h"
+#include "src/compound2dObjects/Plane.h"
 #include "src/raw/Shader.h"
 #include "src/camera/PerspectiveCamera.h"
 #include "src/raw/Renderer.h"
-#include "src/compound3dObject/Cube.h"
 #include "src/raw/Interface.h"
 #include "src/models/Line.h"
-#include "src/compound3dObject/GridSystem.h"
-#include "src/compound3dObject/Sphere.h"
-#include "src/compound3dObject/Prism.h"
+#include "src/compound3dObjects/GridSystem.h"
+#include "src/compound3dObjects/Sphere.h"
+#include "src/compound3dObjects/Prism.h"
+#include "src/compound3dObjects/Pyramid.h"
+#include "src/compound3dObjects/Cylinder.h"
+#include "src/compound3dObjects/Cone.h"
+#include "src/compound2dObjects/Circle.h"
+#include "src/compound2dObjects/Triangle.h"
 
 int main(void) {
     Window window(800, 600, "Hello World");
-    //glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
+   // glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
     Renderer renderer(Color::Gray);
     PerspectiveCamera * camera = new PerspectiveCamera(window);
     Interface interface(window);
@@ -28,14 +32,10 @@ int main(void) {
         }
     }
      */
+   //Plane * plane = new Plane(Position(0,0,0), Color::Turquoise, 20, 20);
+   Circle * cicle= new Circle(Position(10,0,10), Color::Turquoise,10);
 
-    //Cube * cube = new Cube(Position(0,0,0), Color::Green, 5, 5, 5);
-
-    //Sphere * sphere = new Sphere(Position(100,0,0), Color::White, 10, 30,30);
-
-    Prism * prism = new Prism(Position(0, 0, 0), Color::White,
-                              10, 3, 20, 10, 10);
-    meshes.push_back(prism);
+   meshes.push_back(cicle);
 
 
     GridSystem grid;

@@ -7,6 +7,8 @@
 
 #pragma once
 
+#include <string>
+
 class Position {
 
 private:
@@ -20,6 +22,10 @@ public:
     inline float getX(){return this->x;}
     inline float getY(){return this->y;}
     inline float getZ(){return this->z;}
+
+    inline std::string toString() {
+        return "\n\tx: "+ std::to_string(x) + "y: "+ std::to_string(y) + "z: "+ std::to_string(z);
+    }
 
 };
 

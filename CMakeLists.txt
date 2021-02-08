@@ -49,14 +49,14 @@ add_executable(
 
         src/models/Mesh.h
         src/models/Mesh.cpp
-        src/models/Plane.cpp
-        src/models/Plane.h
+        src/compound2dObjects/Plane.cpp
+        src/compound2dObjects/Plane.h
 
         src/camera/OrthographicCamera.h
         src/camera/OrthographicCamera.cpp
 
-        src/compound3dObject/Cube.h
-        src/compound3dObject/Cube.cpp
-        src/utils/Convertion.h src/basics/Normal.cpp src/basics/Normal.h src/camera/PerspectiveCamera.cpp src/camera/PerspectiveCamera.h src/models/Line.cpp src/models/Line.h src/basics/SimpleVertex.cpp src/basics/SimpleVertex.h src/compound3dObject/GridSystem.cpp src/compound3dObject/GridSystem.h src/compound3dObject/Sphere.cpp src/compound3dObject/Sphere.h src/compound3dObject/Prism.cpp src/compound3dObject/Prism.h)
+        src/compound3dObjects/Cube.h
+        src/compound3dObjects/Cube.cpp
+        src/utils/Convertion.h src/basics/Normal.cpp src/basics/Normal.h src/camera/PerspectiveCamera.cpp src/camera/PerspectiveCamera.h src/models/Line.cpp src/models/Line.h src/basics/SimpleVertex.cpp src/basics/SimpleVertex.h src/compound3dObjects/GridSystem.cpp src/compound3dObjects/GridSystem.h src/compound3dObjects/Sphere.cpp src/compound3dObjects/Sphere.h src/compound3dObjects/Prism.cpp src/compound3dObjects/Prism.h src/compound3dObjects/Pyramid.cpp src/compound3dObjects/Pyramid.h src/compound3dObjects/Cylinder.cpp src/compound3dObjects/Cylinder.h src/compound3dObjects/Cone.cpp src/compound3dObjects/Cone.h src/compound2dObjects/Circle.cpp src/compound2dObjects/Circle.h src/compound2dObjects/Triangle.cpp src/compound2dObjects/Triangle.h)
 
 target_link_libraries(freegl -lglut -lglfw -lGLEW -lGL -lGLU)

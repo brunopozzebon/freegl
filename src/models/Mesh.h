@@ -29,8 +29,9 @@ private:
     IndexBuffer* indexBuffer;
     VertexArray* vertexArray;
     VertexBuffer* vertexBuffer;
-    Position position;
     Color color;
+protected:
+    Position position;
 public:
 
     Mesh(Position mesh, Color color);
