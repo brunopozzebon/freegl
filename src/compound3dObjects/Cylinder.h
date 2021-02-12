@@ -10,7 +10,7 @@
 
 class Cylinder : public Prism{
 public:
-    Cylinder(Position position, Color color, float ray, float height, float lateralFaces=40);
+    Cylinder(Position position, float ray, float height, float lateralFaces=40, Material material = Material::Default);
 };
 
 

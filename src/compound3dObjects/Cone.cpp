@@ -4,7 +4,7 @@
 
 #include "Cone.h"
 
-Cone::Cone(Position position, Color color, float baseRay, float height, float lateralFaces) :
-        Prism(position, color, baseRay*2, 0, height, lateralFaces, 1) {
+Cone::Cone(Position position, float baseRay, float height, float lateralFaces, Material material) :
+        Prism(position, baseRay*2, 0, height, lateralFaces, 1, material) {
 
 }

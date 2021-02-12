@@ -4,21 +4,18 @@
 
 #include "Vertex.h"
 
-Vertex::Vertex(Position p, Color c) {
+Vertex::Vertex(Position p) {
     this->position = p;
-    this->color=c;
     this->textureCoord = TextureCoord(0.0f, 0.0f);
 }
 
-Vertex::Vertex(Position p, Color c, TextureCoord tc) {
+Vertex::Vertex(Position p, TextureCoord tc) {
     this->position = p;
-    this->color=c;
     this->textureCoord = tc;
 }
 
-Vertex::Vertex(Position p, Color c, TextureCoord tc, Normal normal) {
+Vertex::Vertex(Position p, TextureCoord tc, Normal normal) {
     this->position = p;
-    this->color=c;
     this->textureCoord = tc;
     this->normal= normal;
 }

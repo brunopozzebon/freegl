@@ -92,6 +92,12 @@ void Shader::setUniform4Mat(const string name, glm::mat4 matrix) {
     glUniformMatrix4fv(location, 1, GL_FALSE, &matrix[0][0]);
 }
 
+void Shader::setUniform1f(const char *name, float value) {
+    GLint location = getLocation(name);
+    glUniform1f(location, value);
+}
+
+
 GLint Shader::getLocation(const string &name) {
     if(locationCache.find(name)!= locationCache.end()){
         return locationCache[name];
@@ -101,5 +107,7 @@ GLint Shader::getLocation(const string &name) {
     locationCache[name] = location;
     return location;
 }
+
+
 
 

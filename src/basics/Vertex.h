@@ -6,7 +6,6 @@
 #define UNTITLED_VERTEX_H
 
 #pragma once
-#include "Color.h"
 #include "TextureCoord.h"
 #include "Position.h"
 #include "Normal.h"
@@ -14,17 +13,16 @@
 class Vertex {
 private:
     Position position;
-    Color color;
     TextureCoord textureCoord;
     Normal normal;
 
 public:
-    Vertex(Position p, Color c);
-    Vertex(Position p, Color c, TextureCoord tc);
-    Vertex(Position p, Color c, TextureCoord tc, Normal n);
+    Vertex(Position p);
+    Vertex(Position p, TextureCoord tc);
+    Vertex(Position p, TextureCoord tc, Normal n);
 
     inline string toString(){
-        return position.toString() + " " + color.toString() + " " + normal.toString();
+        return position.toString() + " " + normal.toString();
     }
 
 };

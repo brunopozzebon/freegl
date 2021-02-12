@@ -10,7 +10,7 @@
 
 class Pyramid : public Prism {
 public:
-    Pyramid(Position position, Color color, float base, float height, float numOfSides);
+    Pyramid(Position position, float base, float height, float numOfSides, Material material = Material::Default);
 
 };
 

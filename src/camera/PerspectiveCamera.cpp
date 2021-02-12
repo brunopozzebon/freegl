@@ -57,7 +57,7 @@ PerspectiveCamera::PerspectiveCamera(Window window) : Camera(window) {
 
     phi= 45.0f;
     theta= 0.0f;
-    ray = 100.0f;
+    ray = 50.0f;
 }
 
 void PerspectiveCamera::update() {

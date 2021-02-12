@@ -4,7 +4,8 @@
 
 #include "Cube.h"
 
-Cube::Cube(Position position, Color color, int width, int height, int depth) : Mesh(position, color) {
+Cube::Cube(Position position, int width, int height, int depth, Material material) :
+Mesh(position, material) {
     float xPosition = position.getX();
     float yPosition = position.getY();
     float zPosition = position.getZ();
@@ -26,63 +27,63 @@ Cube::Cube(Position position, Color color, int width, int height, int depth) : M
     vector<Vertex> v = {
             //Plane A Frente
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::BottomLeft, Normal::Front),
+                    TextureCoord::BottomLeft, Normal::Front),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::TopLeft, Normal::Front),
+                    TextureCoord::TopLeft, Normal::Front),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::TopRight, Normal::Front),
+                    TextureCoord::TopRight, Normal::Front),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::BottomRight, Normal::Front),
+                    TextureCoord::BottomRight, Normal::Front),
 
             //Plane B Tras
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::BottomLeft, Normal::Back),
+                   TextureCoord::BottomLeft, Normal::Back),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::TopLeft, Normal::Back),
+                    TextureCoord::TopLeft, Normal::Back),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::TopRight, Normal::Back),
+                    TextureCoord::TopRight, Normal::Back),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::BottomRight, Normal::Back),
+                    TextureCoord::BottomRight, Normal::Back),
 
             //Plane C Topo
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::BottomLeft, Normal::Top),
+                    TextureCoord::BottomLeft, Normal::Top),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::TopLeft, Normal::Top),
+                    TextureCoord::TopLeft, Normal::Top),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::TopRight, Normal::Top),
+                    TextureCoord::TopRight, Normal::Top),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::BottomRight, Normal::Top),
+                    TextureCoord::BottomRight, Normal::Top),
 
             //Plane D Base
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::BottomLeft, Normal::Bottom),
+                    TextureCoord::BottomLeft, Normal::Bottom),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::TopLeft, Normal::Bottom),
+                    TextureCoord::TopLeft, Normal::Bottom),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::TopRight,Normal::Bottom),
+                    TextureCoord::TopRight,Normal::Bottom),
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::BottomRight, Normal::Bottom),
+                    TextureCoord::BottomRight, Normal::Bottom),
 
             //Plane E Right
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::BottomLeft, Normal::Right),
+                    TextureCoord::BottomLeft, Normal::Right),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::TopLeft, Normal::Right),
+                    TextureCoord::TopLeft, Normal::Right),
             Vertex(Position(xPlusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::TopRight, Normal::Right),
+                    TextureCoord::TopRight, Normal::Right),
             Vertex(Position(xPlusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::BottomRight, Normal::Right),
+                    TextureCoord::BottomRight, Normal::Right),
 
             //Plane F Left
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::BottomLeft, Normal::Left),
+                    TextureCoord::BottomLeft, Normal::Left),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zPlusHalfDepth),
-                   color, TextureCoord::TopLeft, Normal::Left),
+                    TextureCoord::TopLeft, Normal::Left),
             Vertex(Position(xMinusHalfWidth, yPlusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::TopRight, Normal::Left),
+                    TextureCoord::TopRight, Normal::Left),
             Vertex(Position(xMinusHalfWidth, yMinusHalfHeight, zMinusHalfDepth),
-                   color, TextureCoord::BottomRight, Normal::Left),
+                    TextureCoord::BottomRight, Normal::Left),
     };
 
     setVertices(v);

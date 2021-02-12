@@ -20,7 +20,7 @@ private:
     vector<float> getSideNormals();
     Position inPosition(float x, float y, float z);
 public:
-    Prism(Position p, Color c, float baseRadius, float topRadius, float height, float sides = 3, float slices=10);
+    Prism(Position p, float baseRadius, float topRadius, float height, float sides , float slices, Material material = Material::Default);
 };
 
 

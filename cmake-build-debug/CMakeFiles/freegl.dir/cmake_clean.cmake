@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/freegl.dir/main.cpp.o"
   "CMakeFiles/freegl.dir/src/basics/Color.cpp.o"
+  "CMakeFiles/freegl.dir/src/basics/Material.cpp.o"
   "CMakeFiles/freegl.dir/src/basics/Normal.cpp.o"
   "CMakeFiles/freegl.dir/src/basics/Position.cpp.o"
   "CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o"

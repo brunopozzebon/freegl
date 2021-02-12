@@ -37,6 +37,8 @@ public:
     void setUniform3Vec(const string name, glm::vec3 vec);
 
     GLint getLocation(const string& name);
+
+    void setUniform1f(const char string[30], float value);
 };
 
 

@@ -4,10 +4,10 @@
 
 #include "Sphere.h"
 
-Sphere::Sphere(Position position, Color color, float radius, int sections, int stacks) : radius(radius),
+Sphere::Sphere(Position position, float radius, int sections, int stacks, Material material) : radius(radius),
                                                                                          sections(sections),
                                                                                          stacks(stacks),
-                                                                                         Mesh(position, color) {
+                                                                                         Mesh(position, material) {
     const float PI = glm::pi<float>();
     const float lengthInv = 1.0f;
 
@@ -41,7 +41,6 @@ Sphere::Sphere(Position position, Color color, float radius, int sections, int s
             v.push_back(
                     Vertex(
                             Position(x+initialXPosition, y+initialYPosition, z+initialZPosition),
-                            color,
                             TextureCoord(s, t),
                             Normal(nx, ny, nz))
             );

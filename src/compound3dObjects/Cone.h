@@ -10,7 +10,7 @@
 
 class Cone : public Prism{
 public:
-    Cone(Position position, Color color, float baseRay, float height, float lateralFaces=40);
+    Cone(Position position, float baseRay, float height, float lateralFaces=40, Material material = Material::Default);
 };
 
 

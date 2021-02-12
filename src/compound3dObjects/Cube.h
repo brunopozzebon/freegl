@@ -11,7 +11,7 @@
 class Cube : public Mesh{
 
 public:
-    Cube(Position position, Color color, int width, int height, int depth);
+    Cube(Position position, int width, int height, int depth, Material material = Material::Default);
 
 };
 

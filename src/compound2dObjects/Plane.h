@@ -15,7 +15,7 @@ private:
     int width;
     int height;
 public:
-    Plane(Position position, Color color, int width, int height);
+    Plane(Position position,int width, int height, Material material = Material::Default);
 
 };
 

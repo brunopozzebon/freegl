@@ -197,6 +197,33 @@ src/basics/Color.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Color.cpp.s
 .PHONY : src/basics/Color.cpp.s
 
+src/basics/Material.o: src/basics/Material.cpp.o
+
+.PHONY : src/basics/Material.o
+
+# target to build an object file
+src/basics/Material.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Material.cpp.o
+.PHONY : src/basics/Material.cpp.o
+
+src/basics/Material.i: src/basics/Material.cpp.i
+
+.PHONY : src/basics/Material.i
+
+# target to preprocess a source file
+src/basics/Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Material.cpp.i
+.PHONY : src/basics/Material.cpp.i
+
+src/basics/Material.s: src/basics/Material.cpp.s
+
+.PHONY : src/basics/Material.s
+
+# target to generate assembly for a file
+src/basics/Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Material.cpp.s
+.PHONY : src/basics/Material.cpp.s
+
 src/basics/Normal.o: src/basics/Normal.cpp.o
 
 .PHONY : src/basics/Normal.o
@@ -1211,6 +1238,9 @@ help:
 	@echo "... src/basics/Color.o"
 	@echo "... src/basics/Color.i"
 	@echo "... src/basics/Color.s"
+	@echo "... src/basics/Material.o"
+	@echo "... src/basics/Material.i"
+	@echo "... src/basics/Material.s"
 	@echo "... src/basics/Normal.o"
 	@echo "... src/basics/Normal.i"
 	@echo "... src/basics/Normal.s"

@@ -4,7 +4,8 @@
 
 #include "Plane.h"
 
-Plane::Plane(Position position, Color color, int width, int height) : position(position), width(width), height(height), Mesh(position, color){
+Plane::Plane(Position position, int width, int height, Material material) :
+position(position), width(width), height(height), Mesh(position, material){
 
     float xMinusHalfWidth = position.getX() - width/2;
     float xPlusHalfWidth = position.getX() + width/2;
@@ -12,10 +13,10 @@ Plane::Plane(Position position, Color color, int width, int height) : position(p
     float yPlusHalfHeight = position.getY() + height/2;
 
     vector<Vertex> v = {
-            Vertex(Position(xMinusHalfWidth, 0,yMinusHalfHeight),color, TextureCoord::BottomLeft, Normal::Top),
-            Vertex(Position(xMinusHalfWidth, 0,yPlusHalfHeight),color, TextureCoord::TopLeft,Normal::Top),
-            Vertex(Position(xPlusHalfWidth, 0,yPlusHalfHeight),color,TextureCoord::TopRight,Normal::Top),
-            Vertex(Position(xPlusHalfWidth, 0,yMinusHalfHeight),color, TextureCoord::BottomRight,Normal::Top),
+            Vertex(Position(xMinusHalfWidth, 0,yMinusHalfHeight), TextureCoord::BottomLeft, Normal::Top),
+            Vertex(Position(xMinusHalfWidth, 0,yPlusHalfHeight), TextureCoord::TopLeft,Normal::Top),
+            Vertex(Position(xPlusHalfWidth, 0,yPlusHalfHeight),TextureCoord::TopRight,Normal::Top),
+            Vertex(Position(xPlusHalfWidth, 0,yMinusHalfHeight), TextureCoord::BottomRight,Normal::Top),
     };
 
     setVertices(v);

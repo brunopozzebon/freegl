@@ -4,14 +4,11 @@
 
 #include "Mesh.h"
 
-
-Mesh::Mesh(Position origin, Color color) : origin(origin), color(color), transformationMatrix(glm::mat4(1.0f)){
-    this->texturePath="../src/resources/images/image.png";
-}
-
-Mesh::Mesh(Position origin, Color color, string texturePath) : origin(origin), color(color), transformationMatrix(glm::mat4(1.0f)){
-    this->texturePath = texturePath;
-}
+Mesh::Mesh(Position origin, Material material, string texture) :
+        material(material),
+        origin(origin),
+        texturePath(texture),
+        transformationMatrix(glm::mat4(1.0f)){}
 
 void Mesh::init(){
 
@@ -19,9 +16,7 @@ void Mesh::init(){
 
     VertexArrayLayout vertexArrayLayout;
     vertexArrayLayout.push(3);
-    vertexArrayLayout.push(4);
     vertexArrayLayout.push(2);
-
     vertexArrayLayout.push(3);
 
     vertexArray = new VertexArray();

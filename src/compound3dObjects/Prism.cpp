@@ -24,9 +24,9 @@ std::vector<float> Prism::getSideNormals() {
     return normals;
 }
 
-Prism::Prism(Position p, Color c, float baseRadius, float topRadius, float height, float sides, float slices)
+Prism::Prism(Position p, float baseRadius, float topRadius, float height, float sides, float slices, Material material)
         : baseRadius(baseRadius),
-          topRadius(topRadius), height(height), sides(sides), slices(slices), Mesh(p, c) {
+          topRadius(topRadius), height(height), sides(sides), slices(slices), Mesh(p, material) {
 
     const float PI = acos(-1);
     float sectorStep = 2 * PI / this->sides;
@@ -57,7 +57,7 @@ Prism::Prism(Position p, Color c, float baseRadius, float topRadius, float heigh
             x = unitCircleVertices[k];
             z = unitCircleVertices[k + 1];
             v.push_back(
-                    Vertex(inPosition(x * radius, y, z * radius), c,
+                    Vertex(inPosition(x * radius, y, z * radius),
                            TextureCoord((float) j / sides, t),
                            Normal(sideNormals[k], sideNormals[k + 1], sideNormals[k + 2]))
             );
@@ -68,7 +68,7 @@ Prism::Prism(Position p, Color c, float baseRadius, float topRadius, float heigh
 
     y = -height * 0.5f;
     v.push_back(
-            Vertex(inPosition(0, y, 0), c, TextureCoord(0.5f, 0.5f), Normal(0, 0, -1))
+            Vertex(inPosition(0, y, 0), TextureCoord(0.5f, 0.5f), Normal(0, 0, -1))
     );
 
     for (int i = 0, j = 0; i < sides; ++i, j += 3) {
@@ -77,7 +77,7 @@ Prism::Prism(Position p, Color c, float baseRadius, float topRadius, float heigh
 
         v.push_back(
                 Vertex(inPosition(x * baseRadius, y, z * baseRadius),
-                       c, TextureCoord(-x * 0.5f + 0.5f, -z * 0.5f + 0.5f), Normal(0, 0, -1))
+                       TextureCoord(-x * 0.5f + 0.5f, -z * 0.5f + 0.5f), Normal(0, 0, -1))
         );
     }
 
@@ -85,14 +85,14 @@ Prism::Prism(Position p, Color c, float baseRadius, float topRadius, float heigh
     y = height * 0.5f;
 
     v.push_back(
-            Vertex(inPosition(0, y, 0), c, TextureCoord(0.5f, 0.5f), Normal(0, 0, 1))
+            Vertex(inPosition(0, y, 0), TextureCoord(0.5f, 0.5f), Normal(0, 0, 1))
     );
 
     for (int i = 0, j = 0; i < sides; ++i, j += 3) {
         x = unitCircleVertices[j];
         z = unitCircleVertices[j + 1];
         v.push_back(
-                Vertex(inPosition(x * topRadius, y, z * topRadius), c,
+                Vertex(inPosition(x * topRadius, y, z * topRadius),
                        TextureCoord(x * 0.5f + 0.5f, -z * 0.5f + 0.5f), Normal(0, 0, 1))
         );
     }

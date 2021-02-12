@@ -3,6 +3,7 @@
 
 CMakeFiles/freegl.dir/main.cpp.o: ../main.cpp
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/main.cpp.o: ../src/basics/SimpleVertex.h
@@ -449,6 +450,31 @@ CMakeFiles/freegl.dir/src/basics/Color.cpp.o: ../src/utils/glm/simd/platform.h
 CMakeFiles/freegl.dir/src/basics/Color.cpp.o: ../src/utils/glm/vec3.hpp
 CMakeFiles/freegl.dir/src/basics/Color.cpp.o: ../src/utils/imgui/imconfig.h
 CMakeFiles/freegl.dir/src/basics/Color.cpp.o: ../src/utils/imgui/imgui.h
+
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/basics/Material.cpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/basics/Material.h
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/detail/_swizzle.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/detail/_swizzle_func.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/detail/compute_vector_relational.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/detail/qualifier.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/detail/setup.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/detail/type_vec3.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/detail/type_vec3.inl
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/scalar_int_sized.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/scalar_uint_sized.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_bool3.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_bool3_precision.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_double3.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_double3_precision.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_float3.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_float3_precision.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_int3.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_int3_sized.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_uint3.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/ext/vector_uint3_sized.hpp
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/simd/neon.h
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/simd/platform.h
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o: ../src/utils/glm/vec3.hpp
 
 CMakeFiles/freegl.dir/src/basics/Normal.cpp.o: ../src/basics/Normal.cpp
 CMakeFiles/freegl.dir/src/basics/Normal.cpp.o: ../src/basics/Normal.h
@@ -1317,6 +1343,7 @@ CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o: ../src/utils/glm/vec4.
 CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o: ../src/utils/glm/vector_relational.hpp
 
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/basics/TextureCoord.h
@@ -1716,6 +1743,7 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/utils/glm/vecto
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o: ../src/basics/TextureCoord.h
@@ -2115,6 +2143,7 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o: ../src/utils/glm/vector
 CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/basics/TextureCoord.h
@@ -2514,6 +2543,7 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/utils/glm/vec
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/basics/TextureCoord.h
@@ -2914,6 +2944,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/utils/glm/vector_
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/basics/TextureCoord.h
@@ -3313,6 +3344,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/utils/glm/vector_
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o: ../src/basics/TextureCoord.h
@@ -4110,6 +4142,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o: ../src/utils/glm/v
 CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o: ../src/utils/glm/vector_relational.hpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/basics/TextureCoord.h
@@ -4509,6 +4542,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/utils/glm/vector
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/basics/TextureCoord.h
@@ -4909,6 +4943,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/utils/glm/vect
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/utils/std_image/std_image.h
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o: ../src/basics/TextureCoord.h
@@ -5764,6 +5799,7 @@ CMakeFiles/freegl.dir/src/models/Line.cpp.o: ../src/utils/glm/vec4.hpp
 CMakeFiles/freegl.dir/src/models/Line.cpp.o: ../src/utils/glm/vector_relational.hpp
 
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o: ../src/basics/TextureCoord.h
@@ -6165,6 +6201,7 @@ CMakeFiles/freegl.dir/src/raw/IndexBuffer.cpp.o: ../src/raw/IndexBuffer.cpp
 CMakeFiles/freegl.dir/src/raw/IndexBuffer.cpp.o: ../src/raw/IndexBuffer.h
 
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Color.h
+CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Material.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Normal.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/Position.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o: ../src/basics/TextureCoord.h

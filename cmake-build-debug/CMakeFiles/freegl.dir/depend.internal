@@ -4,6 +4,7 @@
 CMakeFiles/freegl.dir/main.cpp.o
  /home/bruno/CLionProjects/freegl/main.cpp
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.h
@@ -450,6 +451,31 @@ CMakeFiles/freegl.dir/src/basics/Color.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
  /home/bruno/CLionProjects/freegl/src/utils/imgui/imconfig.h
  /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui.h
+CMakeFiles/freegl.dir/src/basics/Material.cpp.o
+ /home/bruno/CLionProjects/freegl/src/basics/Material.cpp
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
 CMakeFiles/freegl.dir/src/basics/Normal.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Normal.cpp
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
@@ -1318,6 +1344,7 @@ CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/glm/vector_relational.hpp
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -1717,6 +1744,7 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -2116,6 +2144,7 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -2515,6 +2544,7 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -2915,6 +2945,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -3314,6 +3345,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -4111,6 +4143,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/glm/vector_relational.hpp
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -4510,6 +4543,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -4910,6 +4944,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -5765,6 +5800,7 @@ CMakeFiles/freegl.dir/src/models/Line.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/glm/vector_relational.hpp
 CMakeFiles/freegl.dir/src/models/Mesh.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -6166,6 +6202,7 @@ CMakeFiles/freegl.dir/src/raw/IndexBuffer.cpp.o
  /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Material.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h

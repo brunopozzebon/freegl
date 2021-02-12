@@ -4,7 +4,7 @@
 
 #include "Cylinder.h"
 
-Cylinder::Cylinder(Position position, Color color, float ray, float height, float lateralFaces) :
- Prism(position, color, ray*2, ray*2, height, lateralFaces){
+Cylinder::Cylinder(Position position, float ray, float height, float lateralFaces, Material material) :
+ Prism(position, ray*2, ray*2, height, lateralFaces, 48, material){
 
 }

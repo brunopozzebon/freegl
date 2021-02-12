@@ -16,7 +16,7 @@ private:
     int stacks;
 
 public:
-    Sphere(Position position, Color color, float radius, int sections=20, int stacks=20);
+    Sphere(Position position, float radius, int sections=20, int stacks=20, Material material = Material::Default);
 };
 
 

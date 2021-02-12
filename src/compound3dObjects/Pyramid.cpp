@@ -5,7 +5,7 @@
 #include "Pyramid.h"
 
 
-Pyramid::Pyramid(Position position, Color color, float base, float height, float numOfSides) :
-        Prism(position, color, base, 0, height, numOfSides, 1) {
+Pyramid::Pyramid(Position position, float base, float height, float numOfSides, Material material) :
+        Prism(position, base, 0, height, numOfSides, 1, material) {
 
 }

@@ -5,7 +5,7 @@
 #ifndef FREEGL_TRIANGLE_H
 #define FREEGL_TRIANGLE_H
 
-
+#pragma once
 #include "../models/Mesh.h"
 
 class Triangle : public Mesh{
@@ -15,7 +15,7 @@ private:
     Position vertexC;
 
 public:
-    Triangle(Position vertexA, Position vertexB, Position vertexC, Color color);
+    Triangle(Position vertexA, Position vertexB, Position vertexC, Material material = Material::Default);
 };
 
 

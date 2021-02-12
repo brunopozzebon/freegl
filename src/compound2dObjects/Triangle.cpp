@@ -4,7 +4,7 @@
 
 #include "Triangle.h"
 
-Triangle::Triangle(Position vertexA, Position vertexB, Position vertexC, Color color) : vertexA(vertexA),
+Triangle::Triangle(Position vertexA, Position vertexB, Position vertexC,  Material material) : vertexA(vertexA),
                                                                                         vertexB(vertexB),
                                                                                         vertexC(vertexC),
                                                                                         Mesh(
@@ -17,11 +17,11 @@ Triangle::Triangle(Position vertexA, Position vertexB, Position vertexC, Color c
                                                                                                         (vertexA.getY() +
                                                                                                          vertexB.getY() +
                                                                                                          vertexC.getY()) /
-                                                                                                        3), color) {
+                                                                                                        3), material) {
     vector<Vertex> vertices = {
-            Vertex(vertexA, color, TextureCoord::TopRight, Normal::Top),
-            Vertex(vertexB, color, TextureCoord::BottomRight, Normal::Top),
-            Vertex(vertexC, color, TextureCoord::BottomLeft, Normal::Top),
+            Vertex(vertexA, TextureCoord::TopRight, Normal::Top),
+            Vertex(vertexB, TextureCoord::BottomRight, Normal::Top),
+            Vertex(vertexC, TextureCoord::BottomLeft, Normal::Top),
     };
 
     setVertices(vertices);

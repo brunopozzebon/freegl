@@ -13,7 +13,7 @@ private:
     float radius;
     float numOfSides;
 public:
-    Circle(Position p, Color c, float radius, float numOfSides=36);
+    Circle(Position p, float radius, float numOfSides=36, Material material = Material::Default);
 
     Position inPosition(float x, float y, float z);
 };

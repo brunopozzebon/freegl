@@ -19,7 +19,7 @@ public:
 
         //SetUp roboto
         ImGuiIO &io = ImGui::GetIO();
-        io.Fonts->AddFontFromFileTTF("../roboto.ttf", 12.0f);
+        io.Fonts->AddFontFromFileTTF("../src/resources/fonts/roboto.ttf", 12.0f);
 
         ImGuiStyle &style = ImGui::GetStyle();
 

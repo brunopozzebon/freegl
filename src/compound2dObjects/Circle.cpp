@@ -4,7 +4,10 @@
 
 #include "Circle.h"
 
-Circle::Circle(Position p, Color c, float radius, float numOfSides) : numOfSides(numOfSides), radius(radius), Mesh(p, c) {
+Circle::Circle(Position p, float radius, float numOfSides, Material m) :
+numOfSides(numOfSides),
+radius(radius),
+Mesh(p, m) {
 
     const float PI = acos(-1);
     float sectorStep = 2 * PI / this->numOfSides;
@@ -24,7 +27,6 @@ Circle::Circle(Position p, Color c, float radius, float numOfSides) : numOfSides
     vertices.push_back(
             Vertex(
                     inPosition(0, 0, 0),
-                    c,
                     TextureCoord(0.5f, 0.5f),
                     Normal::Top)
     );
@@ -35,7 +37,6 @@ Circle::Circle(Position p, Color c, float radius, float numOfSides) : numOfSides
 
         Vertex vertex =  Vertex(
                 inPosition(x * radius, 0, z * radius),
-                c,
                 TextureCoord(-x * 0.5f + 0.5f, -z * 0.5f + 0.5f),
                 Normal::Top
                 );

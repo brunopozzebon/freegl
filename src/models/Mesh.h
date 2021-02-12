@@ -19,6 +19,7 @@
 #include "../../../../CLionProjects/freegl/src/raw/IndexBuffer.h"
 #include "../raw/Shader.h"
 #include "string"
+#include "../basics/Material.h"
 
 using namespace std;
 
@@ -28,11 +29,11 @@ private:
     vector<unsigned int> indices;
     Texture* texture;
     string texturePath;
+    Material material;
 
     IndexBuffer* indexBuffer;
     VertexArray* vertexArray;
     VertexBuffer* vertexBuffer;
-    Color color;
     glm::mat4 transformationMatrix;
 
     void goToCenter();
@@ -43,8 +44,7 @@ protected:
     Position origin;
 public:
 
-    Mesh(Position origin, Color color);
-    Mesh(Position origin, Color color, string texturePath);
+    Mesh(Position origin, Material material, string texturePath="../src/resources/images/container.png");
 
     void setImage(string path);
 
@@ -55,6 +55,10 @@ public:
 
     inline glm::mat4 getTransformations(){
         return  transformationMatrix;
+    }
+
+    inline Material getMaterial(){
+        return this->material;
     }
 
     void rotateX(float degres = 1.0f);

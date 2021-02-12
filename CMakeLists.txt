@@ -86,6 +86,6 @@ add_executable(
         src/compound2dObjects/Triangle.h
         src/light/Light.cpp
         src/light/Light.h
-        src/interface/styles/LightStyle.h)
+        src/interface/styles/LightStyle.h src/basics/Material.cpp src/basics/Material.h)
 
 target_link_libraries(freegl -lglut -lglfw -lGLEW -lGL -lGLU)

@@ -42,7 +42,6 @@ public:
         return "\n\tr: "+ std::to_string(r) + "g: "+ std::to_string(g) + "b: "+ std::to_string(b) +"a: "+ std::to_string(a);
     }
 
-    static Color RED;
     static Color AliceBlue;
     static Color AntiqueWhite;
     static Color Aqua;

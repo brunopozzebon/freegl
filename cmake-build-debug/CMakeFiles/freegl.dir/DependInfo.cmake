@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/bruno/CLionProjects/freegl/main.cpp" "/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles/freegl.dir/main.cpp.o"
   "/home/bruno/CLionProjects/freegl/src/basics/Color.cpp" "/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles/freegl.dir/src/basics/Color.cpp.o"
+  "/home/bruno/CLionProjects/freegl/src/basics/Material.cpp" "/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles/freegl.dir/src/basics/Material.cpp.o"
   "/home/bruno/CLionProjects/freegl/src/basics/Normal.cpp" "/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles/freegl.dir/src/basics/Normal.cpp.o"
   "/home/bruno/CLionProjects/freegl/src/basics/Position.cpp" "/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles/freegl.dir/src/basics/Position.cpp.o"
   "/home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.cpp" "/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o"

@@ -28,6 +28,14 @@ void Renderer::draw(vector<Mesh*> meshes, Camera * camera) {
         Mesh* m = meshes[i];
         glm::mat4 model = m->getTransformations();
         shader.setUniform4Mat("u_model", model);
+
+        Material material = m->getMaterial();
+
+        shader.setUniform3Vec("u_material.ambient_intensity", material.getAmbient());
+        shader.setUniform3Vec("u_material.diffuse_intensity", material.getDiffuse());
+        shader.setUniform3Vec("u_material.specular_intensity", material.getSpecular());
+        shader.setUniform1f("u_material.shininess",material.getShininess());
+
         m->draw();
     }
 }
