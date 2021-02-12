@@ -138,5 +138,5 @@ Prism::Prism(Position p, Color c, float baseRadius, float topRadius, float heigh
 }
 
 Position Prism::inPosition(float x, float y, float z) {
-    return Position(x + position.getX(), y + position.getY(), z + position.getZ());
+    return Position(x + origin.getX(), y + origin.getY(), z + origin.getZ());
 }

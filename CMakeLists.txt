@@ -35,8 +35,8 @@ add_executable(
         src/raw/Renderer.cpp
         src/raw/Texture.h
         src/raw/Texture.cpp
-        src/raw/Interface.h
-        src/raw/Interface.cpp
+        src/interface/Interface.h
+        src/interface/Interface.cpp
 
         src/basics/Vertex.h
         src/basics/Vertex.cpp
@@ -52,11 +52,40 @@ add_executable(
         src/compound2dObjects/Plane.cpp
         src/compound2dObjects/Plane.h
 
+        src/camera/Camera.cpp
+        src/camera/Camera.h
         src/camera/OrthographicCamera.h
         src/camera/OrthographicCamera.cpp
 
         src/compound3dObjects/Cube.h
         src/compound3dObjects/Cube.cpp
-        src/utils/Convertion.h src/basics/Normal.cpp src/basics/Normal.h src/camera/PerspectiveCamera.cpp src/camera/PerspectiveCamera.h src/models/Line.cpp src/models/Line.h src/basics/SimpleVertex.cpp src/basics/SimpleVertex.h src/compound3dObjects/GridSystem.cpp src/compound3dObjects/GridSystem.h src/compound3dObjects/Sphere.cpp src/compound3dObjects/Sphere.h src/compound3dObjects/Prism.cpp src/compound3dObjects/Prism.h src/compound3dObjects/Pyramid.cpp src/compound3dObjects/Pyramid.h src/compound3dObjects/Cylinder.cpp src/compound3dObjects/Cylinder.h src/compound3dObjects/Cone.cpp src/compound3dObjects/Cone.h src/compound2dObjects/Circle.cpp src/compound2dObjects/Circle.h src/compound2dObjects/Triangle.cpp src/compound2dObjects/Triangle.h)
+        src/utils/Convertion.h
+        src/basics/Normal.cpp
+        src/basics/Normal.h
+        src/camera/PerspectiveCamera.cpp
+        src/camera/PerspectiveCamera.h
+        src/models/Line.cpp
+        src/models/Line.h
+        src/basics/SimpleVertex.cpp
+        src/basics/SimpleVertex.h
+        src/compound3dObjects/GridSystem.cpp
+        src/compound3dObjects/GridSystem.h
+        src/compound3dObjects/Sphere.cpp
+        src/compound3dObjects/Sphere.h
+        src/compound3dObjects/Prism.cpp
+        src/compound3dObjects/Prism.h
+        src/compound3dObjects/Pyramid.cpp
+        src/compound3dObjects/Pyramid.h
+        src/compound3dObjects/Cylinder.cpp
+        src/compound3dObjects/Cylinder.h
+        src/compound3dObjects/Cone.cpp
+        src/compound3dObjects/Cone.h
+        src/compound2dObjects/Circle.cpp
+        src/compound2dObjects/Circle.h
+        src/compound2dObjects/Triangle.cpp
+        src/compound2dObjects/Triangle.h
+        src/light/Light.cpp
+        src/light/Light.h
+        src/interface/styles/LightStyle.h)
 
 target_link_libraries(freegl -lglut -lglfw -lGLEW -lGL -lGLU)

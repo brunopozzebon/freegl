@@ -10,42 +10,47 @@
 
 #include "../utils/glm/ext.hpp"
 #include "../../../../CLionProjects/freegl/src/raw/Window.h"
+#include "Camera.h"
 
-const float cameraSpeed = 0.5f;
 
-class OrthographicCamera {
-
-private:
-
-    glm::mat4 projection, view;
-    Window window;
-    glm::vec3 cameraPos, cameraFront, cameraUp, direction;
-    bool firstMouse;
-
-    float fov, yaw, pitch, lastX, lastY;
-
+class OrthographicCamera : public Camera{
 public:
     OrthographicCamera(Window window);
-    inline glm::mat4 getProjection(){ return projection;}
-    glm::mat4 getView();
 
-   // void update();
+    static void updateTheta(float delta) {
+        theta -= delta;
+    }
 
-    void moveFront();
-    void moveBack();
+    static void updatePhi(float delta) {
+        float newValue = phi - delta;
+        if (newValue > 0 && newValue < 130) {
+            phi = newValue;
+        }
+    }
 
-    void moveRight();
-    void moveLeft();
+    static void moveFront() {
+        float difference = ray - 1.3f;
+        setRay(difference);
+    }
 
-    void moveUp();
-    void moveDown();
+    static void moveBack() {
+        float difference = ray + 1.3f;
+        setRay(difference);
+    }
 
-    void setFov(float yoffset);
+    static void scrool(float yoffset) {
+        float difference = ray - yoffset;
+        setRay(difference);
+    }
 
-    void mouseMove(double xpos, double ypos);
+    static void setRay(float r) {
+        if (r < 1.0f || r > 800.0f) {
+            return;
+        }
+        ray = r;
+    }
 
-    inline glm::vec3 getPosition(){return this->cameraPos;}
-
+    void update();
 };
 
 

@@ -3,6 +3,8 @@
 //
 
 #include "PerspectiveCamera.h"
+#include "Camera.h"
+
 
 void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
     static float lastMousePosx = 0.0f;
@@ -42,7 +44,7 @@ void listenInput(GLFWwindow *window) {
         PerspectiveCamera::moveBack();
 }
 
-PerspectiveCamera::PerspectiveCamera(Window window) : window(window) {
+PerspectiveCamera::PerspectiveCamera(Window window) : Camera(window) {
 
     glfwSetCursorPosCallback(window.getWindow(), mouse_callback);
     glfwSetScrollCallback(window.getWindow(), mouseScrool);
@@ -73,6 +75,8 @@ void PerspectiveCamera::update() {
                                                      (float) window.getHeight(), 0.1f, 1000.0f);
     view = lookAt(position, lookat, vec3(0.0f, 1.0f, 0.0f));
 }
+
+
 
 
 

@@ -121,6 +121,12 @@
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/basics/Vertex.h">
 			<Option target="freegl"/>
 		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/camera/Camera.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/camera/Camera.h">
+			<Option target="freegl"/>
+		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.cpp">
 			<Option target="freegl"/>
 		</Unit>
@@ -193,6 +199,21 @@
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/compound3dObjects/Sphere.h">
 			<Option target="freegl"/>
 		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/interface/Interface.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/interface/Interface.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/interface/styles/LightStyle.h">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/light/Light.cpp">
+			<Option target="freegl"/>
+		</Unit>
+		<Unit filename="/home/bruno/CLionProjects/freegl/src/light/Light.h">
+			<Option target="freegl"/>
+		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/models/Line.cpp">
 			<Option target="freegl"/>
 		</Unit>
@@ -209,12 +230,6 @@
 			<Option target="freegl"/>
 		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h">
-			<Option target="freegl"/>
-		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/raw/Interface.cpp">
-			<Option target="freegl"/>
-		</Unit>
-		<Unit filename="/home/bruno/CLionProjects/freegl/src/raw/Interface.h">
 			<Option target="freegl"/>
 		</Unit>
 		<Unit filename="/home/bruno/CLionProjects/freegl/src/raw/Renderer.cpp">

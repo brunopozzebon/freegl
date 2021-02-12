@@ -285,18 +285,18 @@ CMakeFiles/freegl.dir/src/raw/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/raw/Texture.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/raw/Texture.cpp -o CMakeFiles/freegl.dir/src/raw/Texture.cpp.s
 
-CMakeFiles/freegl.dir/src/raw/Interface.cpp.o: CMakeFiles/freegl.dir/flags.make
-CMakeFiles/freegl.dir/src/raw/Interface.cpp.o: ../src/raw/Interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/freegl.dir/src/raw/Interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/raw/Interface.cpp.o -c /home/bruno/CLionProjects/freegl/src/raw/Interface.cpp
+CMakeFiles/freegl.dir/src/interface/Interface.cpp.o: CMakeFiles/freegl.dir/flags.make
+CMakeFiles/freegl.dir/src/interface/Interface.cpp.o: ../src/interface/Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/freegl.dir/src/interface/Interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/interface/Interface.cpp.o -c /home/bruno/CLionProjects/freegl/src/interface/Interface.cpp
 
-CMakeFiles/freegl.dir/src/raw/Interface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freegl.dir/src/raw/Interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bruno/CLionProjects/freegl/src/raw/Interface.cpp > CMakeFiles/freegl.dir/src/raw/Interface.cpp.i
+CMakeFiles/freegl.dir/src/interface/Interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freegl.dir/src/interface/Interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bruno/CLionProjects/freegl/src/interface/Interface.cpp > CMakeFiles/freegl.dir/src/interface/Interface.cpp.i
 
-CMakeFiles/freegl.dir/src/raw/Interface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/raw/Interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/raw/Interface.cpp -o CMakeFiles/freegl.dir/src/raw/Interface.cpp.s
+CMakeFiles/freegl.dir/src/interface/Interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/interface/Interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/interface/Interface.cpp -o CMakeFiles/freegl.dir/src/interface/Interface.cpp.s
 
 CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o: ../src/basics/Vertex.cpp
@@ -376,9 +376,22 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/compound2dObjects/Plane.cpp -o CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.s
 
+CMakeFiles/freegl.dir/src/camera/Camera.cpp.o: CMakeFiles/freegl.dir/flags.make
+CMakeFiles/freegl.dir/src/camera/Camera.cpp.o: ../src/camera/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/freegl.dir/src/camera/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/camera/Camera.cpp.o -c /home/bruno/CLionProjects/freegl/src/camera/Camera.cpp
+
+CMakeFiles/freegl.dir/src/camera/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freegl.dir/src/camera/Camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bruno/CLionProjects/freegl/src/camera/Camera.cpp > CMakeFiles/freegl.dir/src/camera/Camera.cpp.i
+
+CMakeFiles/freegl.dir/src/camera/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/camera/Camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/camera/Camera.cpp -o CMakeFiles/freegl.dir/src/camera/Camera.cpp.s
+
 CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o: ../src/camera/OrthographicCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o -c /home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.cpp
 
 CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.i: cmake_force
@@ -391,7 +404,7 @@ CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o: ../src/compound3dObjects/Cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound3dObjects/Cube.cpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.i: cmake_force
@@ -404,7 +417,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/basics/Normal.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/basics/Normal.cpp.o: ../src/basics/Normal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/freegl.dir/src/basics/Normal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/freegl.dir/src/basics/Normal.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/basics/Normal.cpp.o -c /home/bruno/CLionProjects/freegl/src/basics/Normal.cpp
 
 CMakeFiles/freegl.dir/src/basics/Normal.cpp.i: cmake_force
@@ -417,7 +430,7 @@ CMakeFiles/freegl.dir/src/basics/Normal.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o: ../src/camera/PerspectiveCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o -c /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp
 
 CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.i: cmake_force
@@ -430,7 +443,7 @@ CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/models/Line.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/models/Line.cpp.o: ../src/models/Line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/freegl.dir/src/models/Line.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/freegl.dir/src/models/Line.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/models/Line.cpp.o -c /home/bruno/CLionProjects/freegl/src/models/Line.cpp
 
 CMakeFiles/freegl.dir/src/models/Line.cpp.i: cmake_force
@@ -443,7 +456,7 @@ CMakeFiles/freegl.dir/src/models/Line.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o: ../src/basics/SimpleVertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o -c /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.cpp
 
 CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.i: cmake_force
@@ -456,7 +469,7 @@ CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o: ../src/compound3dObjects/GridSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound3dObjects/GridSystem.cpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.i: cmake_force
@@ -469,7 +482,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/GridSystem.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o: ../src/compound3dObjects/Sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound3dObjects/Sphere.cpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.i: cmake_force
@@ -482,7 +495,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o: ../src/compound3dObjects/Prism.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.cpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.i: cmake_force
@@ -495,7 +508,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Prism.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o: ../src/compound3dObjects/Pyramid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound3dObjects/Pyramid.cpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.i: cmake_force
@@ -508,7 +521,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Pyramid.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o: ../src/compound3dObjects/Cylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound3dObjects/Cylinder.cpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.i: cmake_force
@@ -521,7 +534,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o: ../src/compound3dObjects/Cone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound3dObjects/Cone.cpp
 
 CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.i: cmake_force
@@ -534,7 +547,7 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o: ../src/compound2dObjects/Circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.cpp
 
 CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.i: cmake_force
@@ -547,7 +560,7 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.s: cmake_force
 
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: CMakeFiles/freegl.dir/flags.make
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o: ../src/compound2dObjects/Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o -c /home/bruno/CLionProjects/freegl/src/compound2dObjects/Triangle.cpp
 
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.i: cmake_force
@@ -557,6 +570,19 @@ CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.i: cmake_force
 CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/compound2dObjects/Triangle.cpp -o CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.s
+
+CMakeFiles/freegl.dir/src/light/Light.cpp.o: CMakeFiles/freegl.dir/flags.make
+CMakeFiles/freegl.dir/src/light/Light.cpp.o: ../src/light/Light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/freegl.dir/src/light/Light.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freegl.dir/src/light/Light.cpp.o -c /home/bruno/CLionProjects/freegl/src/light/Light.cpp
+
+CMakeFiles/freegl.dir/src/light/Light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freegl.dir/src/light/Light.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bruno/CLionProjects/freegl/src/light/Light.cpp > CMakeFiles/freegl.dir/src/light/Light.cpp.i
+
+CMakeFiles/freegl.dir/src/light/Light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freegl.dir/src/light/Light.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bruno/CLionProjects/freegl/src/light/Light.cpp -o CMakeFiles/freegl.dir/src/light/Light.cpp.s
 
 # Object files for target freegl
 freegl_OBJECTS = \
@@ -576,13 +602,14 @@ freegl_OBJECTS = \
 "CMakeFiles/freegl.dir/src/raw/Shader.cpp.o" \
 "CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o" \
 "CMakeFiles/freegl.dir/src/raw/Texture.cpp.o" \
-"CMakeFiles/freegl.dir/src/raw/Interface.cpp.o" \
+"CMakeFiles/freegl.dir/src/interface/Interface.cpp.o" \
 "CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o" \
 "CMakeFiles/freegl.dir/src/basics/TextureCoord.cpp.o" \
 "CMakeFiles/freegl.dir/src/basics/Position.cpp.o" \
 "CMakeFiles/freegl.dir/src/basics/Color.cpp.o" \
 "CMakeFiles/freegl.dir/src/models/Mesh.cpp.o" \
 "CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o" \
+"CMakeFiles/freegl.dir/src/camera/Camera.cpp.o" \
 "CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o" \
 "CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o" \
 "CMakeFiles/freegl.dir/src/basics/Normal.cpp.o" \
@@ -596,7 +623,8 @@ freegl_OBJECTS = \
 "CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o" \
 "CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o" \
 "CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o" \
-"CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o"
+"CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o" \
+"CMakeFiles/freegl.dir/src/light/Light.cpp.o"
 
 # External object files for target freegl
 freegl_EXTERNAL_OBJECTS =
@@ -617,13 +645,14 @@ freegl: CMakeFiles/freegl.dir/src/raw/VertexArray.cpp.o
 freegl: CMakeFiles/freegl.dir/src/raw/Shader.cpp.o
 freegl: CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o
 freegl: CMakeFiles/freegl.dir/src/raw/Texture.cpp.o
-freegl: CMakeFiles/freegl.dir/src/raw/Interface.cpp.o
+freegl: CMakeFiles/freegl.dir/src/interface/Interface.cpp.o
 freegl: CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o
 freegl: CMakeFiles/freegl.dir/src/basics/TextureCoord.cpp.o
 freegl: CMakeFiles/freegl.dir/src/basics/Position.cpp.o
 freegl: CMakeFiles/freegl.dir/src/basics/Color.cpp.o
 freegl: CMakeFiles/freegl.dir/src/models/Mesh.cpp.o
 freegl: CMakeFiles/freegl.dir/src/compound2dObjects/Plane.cpp.o
+freegl: CMakeFiles/freegl.dir/src/camera/Camera.cpp.o
 freegl: CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o
 freegl: CMakeFiles/freegl.dir/src/compound3dObjects/Cube.cpp.o
 freegl: CMakeFiles/freegl.dir/src/basics/Normal.cpp.o
@@ -638,9 +667,10 @@ freegl: CMakeFiles/freegl.dir/src/compound3dObjects/Cylinder.cpp.o
 freegl: CMakeFiles/freegl.dir/src/compound3dObjects/Cone.cpp.o
 freegl: CMakeFiles/freegl.dir/src/compound2dObjects/Circle.cpp.o
 freegl: CMakeFiles/freegl.dir/src/compound2dObjects/Triangle.cpp.o
+freegl: CMakeFiles/freegl.dir/src/light/Light.cpp.o
 freegl: CMakeFiles/freegl.dir/build.make
 freegl: CMakeFiles/freegl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable freegl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bruno/CLionProjects/freegl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable freegl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freegl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

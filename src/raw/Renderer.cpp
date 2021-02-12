@@ -13,12 +13,10 @@ Renderer::Renderer(Color color) {
                   "../src/resources/shaders/fragmentShader.glsl");
     shader.bind();
     shader.setUniform1i("u_texture", 0);
-    shader.setUniform3Vec("u_light.color", glm::vec3(1.0f, 1.0f, 1.0f));
-    shader.setUniform3Vec("u_light.position", glm::vec3(50.0f, 50.0f, 50.0f));
-
 }
 
-void Renderer::draw(vector<Mesh*> meshes, PerspectiveCamera * camera) {
+
+void Renderer::draw(vector<Mesh*> meshes, Camera * camera) {
 
     shader.bind();
     shader.setUniform4Mat("u_projection", camera->getProjection());
@@ -36,4 +34,9 @@ void Renderer::draw(vector<Mesh*> meshes, PerspectiveCamera * camera) {
 
 void Renderer::clear() {
     glClear(GL_COLOR_BUFFER_BIT| GL_DEPTH_BUFFER_BIT);
+}
+
+void Renderer::putLight(Light light) {
+    shader.setUniform3Vec("u_light.color", light.getColor());
+    shader.setUniform3Vec("u_light.position", light.getPosition());
 }

@@ -5,23 +5,10 @@
 #ifndef FREEGL_PERSPECTIVECAMERA_H
 #define FREEGL_PERSPECTIVECAMERA_H
 
+#pragma once
+#include "Camera.h"
 
-#include "../raw/Window.h"
-#include "../utils/glm/vec3.hpp"
-#include "../utils/glm/ext.hpp"
-
-const float cameraSpeed = 3.0f;
-
-using namespace glm;
-
-static float theta, phi, ray = 0.0f;
-
-class PerspectiveCamera {
-
-private:
-    mat4 projection, view;
-    Window window;
-    vec3 position, lookat;
+class PerspectiveCamera : public Camera {
 
 public:
     PerspectiveCamera(Window window);
@@ -60,10 +47,6 @@ public:
     }
 
     void update();
-
-    inline vec3 getPosition(){return this->position;}
-    inline mat4 getView(){return this->view;}
-    inline mat4 getProjection(){return this->projection;}
 };
 
 

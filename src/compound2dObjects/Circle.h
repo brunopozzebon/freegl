@@ -5,7 +5,7 @@
 #ifndef FREEGL_CIRCLE_H
 #define FREEGL_CIRCLE_H
 
-#pragma once;
+#pragma once
 #include "../models/Mesh.h"
 
 class Circle : public Mesh{

@@ -6,7 +6,8 @@
 #include "vector"
 #include "../models/Mesh.h"
 
-#include "../camera/PerspectiveCamera.h"
+#include "../camera/Camera.h"
+#include "../light/Light.h"
 
 #ifndef UNTITLED_RENDERER_H
 #define UNTITLED_RENDERER_H
@@ -18,8 +19,9 @@ private:
     Shader shader;
 public:
     Renderer(Color color);
-    void draw(vector<Mesh*> meshes, PerspectiveCamera * camera);
+    void draw(vector<Mesh*> meshes, Camera * camera);
     void clear();
+    void putLight(Light light);
 };
 
 

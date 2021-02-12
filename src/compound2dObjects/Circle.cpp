@@ -60,6 +60,8 @@ Circle::Circle(Position p, Color c, float radius, float numOfSides) : numOfSides
     init();
 }
 
+
+
 Position Circle::inPosition(float x, float y, float z) {
-    return Position(position.getX() + x, position.getY()+y, position.getZ()+z);
+    return Position(origin.getX() + x, origin.getY()+y, origin.getZ()+z);
 }

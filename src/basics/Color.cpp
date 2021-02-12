@@ -241,3 +241,7 @@ Color Color::White = Color("#FFFFFF");
 Color Color::WhiteSmoke = Color("#F5F5F5");
 Color Color::Yellow = Color("#FFFF00");
 Color Color::YellowGreen = Color("#9ACD32");
+
+glm::vec3 Color::toVec3() {
+    return glm::vec3(this->r, this->g, this->b);
+}

@@ -332,6 +332,33 @@ src/basics/Vertex.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/basics/Vertex.cpp.s
 .PHONY : src/basics/Vertex.cpp.s
 
+src/camera/Camera.o: src/camera/Camera.cpp.o
+
+.PHONY : src/camera/Camera.o
+
+# target to build an object file
+src/camera/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/Camera.cpp.o
+.PHONY : src/camera/Camera.cpp.o
+
+src/camera/Camera.i: src/camera/Camera.cpp.i
+
+.PHONY : src/camera/Camera.i
+
+# target to preprocess a source file
+src/camera/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/Camera.cpp.i
+.PHONY : src/camera/Camera.cpp.i
+
+src/camera/Camera.s: src/camera/Camera.cpp.s
+
+.PHONY : src/camera/Camera.s
+
+# target to generate assembly for a file
+src/camera/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/camera/Camera.cpp.s
+.PHONY : src/camera/Camera.cpp.s
+
 src/camera/OrthographicCamera.o: src/camera/OrthographicCamera.cpp.o
 
 .PHONY : src/camera/OrthographicCamera.o
@@ -656,6 +683,60 @@ src/compound3dObjects/Sphere.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.s
 .PHONY : src/compound3dObjects/Sphere.cpp.s
 
+src/interface/Interface.o: src/interface/Interface.cpp.o
+
+.PHONY : src/interface/Interface.o
+
+# target to build an object file
+src/interface/Interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/interface/Interface.cpp.o
+.PHONY : src/interface/Interface.cpp.o
+
+src/interface/Interface.i: src/interface/Interface.cpp.i
+
+.PHONY : src/interface/Interface.i
+
+# target to preprocess a source file
+src/interface/Interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/interface/Interface.cpp.i
+.PHONY : src/interface/Interface.cpp.i
+
+src/interface/Interface.s: src/interface/Interface.cpp.s
+
+.PHONY : src/interface/Interface.s
+
+# target to generate assembly for a file
+src/interface/Interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/interface/Interface.cpp.s
+.PHONY : src/interface/Interface.cpp.s
+
+src/light/Light.o: src/light/Light.cpp.o
+
+.PHONY : src/light/Light.o
+
+# target to build an object file
+src/light/Light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/light/Light.cpp.o
+.PHONY : src/light/Light.cpp.o
+
+src/light/Light.i: src/light/Light.cpp.i
+
+.PHONY : src/light/Light.i
+
+# target to preprocess a source file
+src/light/Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/light/Light.cpp.i
+.PHONY : src/light/Light.cpp.i
+
+src/light/Light.s: src/light/Light.cpp.s
+
+.PHONY : src/light/Light.s
+
+# target to generate assembly for a file
+src/light/Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/light/Light.cpp.s
+.PHONY : src/light/Light.cpp.s
+
 src/models/Line.o: src/models/Line.cpp.o
 
 .PHONY : src/models/Line.o
@@ -736,33 +817,6 @@ src/raw/IndexBuffer.s: src/raw/IndexBuffer.cpp.s
 src/raw/IndexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/raw/IndexBuffer.cpp.s
 .PHONY : src/raw/IndexBuffer.cpp.s
-
-src/raw/Interface.o: src/raw/Interface.cpp.o
-
-.PHONY : src/raw/Interface.o
-
-# target to build an object file
-src/raw/Interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/raw/Interface.cpp.o
-.PHONY : src/raw/Interface.cpp.o
-
-src/raw/Interface.i: src/raw/Interface.cpp.i
-
-.PHONY : src/raw/Interface.i
-
-# target to preprocess a source file
-src/raw/Interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/raw/Interface.cpp.i
-.PHONY : src/raw/Interface.cpp.i
-
-src/raw/Interface.s: src/raw/Interface.cpp.s
-
-.PHONY : src/raw/Interface.s
-
-# target to generate assembly for a file
-src/raw/Interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/freegl.dir/build.make CMakeFiles/freegl.dir/src/raw/Interface.cpp.s
-.PHONY : src/raw/Interface.cpp.s
 
 src/raw/Renderer.o: src/raw/Renderer.cpp.o
 
@@ -1172,6 +1226,9 @@ help:
 	@echo "... src/basics/Vertex.o"
 	@echo "... src/basics/Vertex.i"
 	@echo "... src/basics/Vertex.s"
+	@echo "... src/camera/Camera.o"
+	@echo "... src/camera/Camera.i"
+	@echo "... src/camera/Camera.s"
 	@echo "... src/camera/OrthographicCamera.o"
 	@echo "... src/camera/OrthographicCamera.i"
 	@echo "... src/camera/OrthographicCamera.s"
@@ -1208,6 +1265,12 @@ help:
 	@echo "... src/compound3dObjects/Sphere.o"
 	@echo "... src/compound3dObjects/Sphere.i"
 	@echo "... src/compound3dObjects/Sphere.s"
+	@echo "... src/interface/Interface.o"
+	@echo "... src/interface/Interface.i"
+	@echo "... src/interface/Interface.s"
+	@echo "... src/light/Light.o"
+	@echo "... src/light/Light.i"
+	@echo "... src/light/Light.s"
 	@echo "... src/models/Line.o"
 	@echo "... src/models/Line.i"
 	@echo "... src/models/Line.s"
@@ -1217,9 +1280,6 @@ help:
 	@echo "... src/raw/IndexBuffer.o"
 	@echo "... src/raw/IndexBuffer.i"
 	@echo "... src/raw/IndexBuffer.s"
-	@echo "... src/raw/Interface.o"
-	@echo "... src/raw/Interface.i"
-	@echo "... src/raw/Interface.s"
 	@echo "... src/raw/Renderer.o"
 	@echo "... src/raw/Renderer.i"
 	@echo "... src/raw/Renderer.s"

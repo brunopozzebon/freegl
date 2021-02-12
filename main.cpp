@@ -4,7 +4,7 @@
 #include "src/raw/Shader.h"
 #include "src/camera/PerspectiveCamera.h"
 #include "src/raw/Renderer.h"
-#include "src/raw/Interface.h"
+#include "src/interface/Interface.h"
 #include "src/models/Line.h"
 #include "src/compound3dObjects/GridSystem.h"
 #include "src/compound3dObjects/Sphere.h"
@@ -14,38 +14,44 @@
 #include "src/compound3dObjects/Cone.h"
 #include "src/compound2dObjects/Circle.h"
 #include "src/compound2dObjects/Triangle.h"
+#include "src/camera/OrthographicCamera.h"
+#include "src/compound3dObjects/Cube.h"
 
 int main(void) {
     Window window(800, 600, "Hello World");
+    glfwSwapInterval(1);
+
    // glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
+   Light light(Color::White, Position(200,200,200));
+
     Renderer renderer(Color::Gray);
+    renderer.putLight(light);
+
     PerspectiveCamera * camera = new PerspectiveCamera(window);
     Interface interface(window);
 
     vector<Mesh *> meshes;
 
-    /*
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 3; j++) {
-            Cube *cube = new Cube(Position(i * 30, j * 30, 0), Color::Yellow, 20, 20, 20);
-            meshes.push_back(cube);
-        }
-    }
-     */
-   //Plane * plane = new Plane(Position(0,0,0), Color::Turquoise, 20, 20);
-   Circle * cicle= new Circle(Position(10,0,10), Color::Turquoise,10);
+    Cube * cube= new Cube(Position(10,10,10), Color::Turquoise,10, 10, 10);
+    cube->setImage("../src/resources/images/image12.jpg");
 
-   meshes.push_back(cicle);
-
+    meshes.push_back(cube);
 
     GridSystem grid;
 
-    while (window.isOpen()) {
+    float floats[] = {1.0f, 0.0f, 1.0f};
 
+
+
+    while (window.isOpen()) {
+        cube->rotateX(0.01f);
         camera->update();
 
         interface.newFrame();
         ImGui::Text("Application average %.3f ms/frame)", 1000.0f);
+        ImGui::SliderFloat3("Model Matrix Translation", &floats[0], 0.0f, 960.0f);
+       // ImGui::SetWindowPos(ImVec2(0, 768 - ImGui::GetWindowHeight() - 40), true);
+        ImGui::ShowStyleEditor();
 
         renderer.clear();
         renderer.draw(meshes, camera);

@@ -7,6 +7,7 @@
 
 #pragma once
 #include "string"
+#include "../utils/glm/vec3.hpp"
 
 using namespace std;
 
@@ -189,6 +190,8 @@ public:
     static Color WhiteSmoke;
     static Color Yellow;
     static Color YellowGreen;
+
+    glm::vec3 toVec3();
 };
 
 

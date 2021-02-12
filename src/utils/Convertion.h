@@ -2,6 +2,11 @@
 // Created by bruno on 06/02/2021.
 //
 
+#pragma once
+
+#include "imgui/imgui.h"
+#include "../basics/Color.h"
+
 #ifndef FREEGL_CONVERTION_H
 #define FREEGL_CONVERTION_H
 
@@ -18,5 +23,9 @@ public:
         else if ((c >= 'a') && (c <= 'f'))
             v = (c - 'a' + 10);
         return v;
+    }
+
+    static ImVec4 toImguiColor(Color color){
+        return ImVec4(color.getR(), color.getG(), color.getB(), color.getA());
     }
 };

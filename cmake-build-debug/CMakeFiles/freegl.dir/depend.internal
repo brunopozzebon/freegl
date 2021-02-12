@@ -9,20 +9,24 @@ CMakeFiles/freegl.dir/main.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
  /home/bruno/CLionProjects/freegl/src/basics/Vertex.h
+ /home/bruno/CLionProjects/freegl/src/camera/Camera.h
+ /home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h
  /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
  /home/bruno/CLionProjects/freegl/src/compound2dObjects/Circle.h
  /home/bruno/CLionProjects/freegl/src/compound2dObjects/Plane.h
  /home/bruno/CLionProjects/freegl/src/compound2dObjects/Triangle.h
  /home/bruno/CLionProjects/freegl/src/compound3dObjects/Cone.h
+ /home/bruno/CLionProjects/freegl/src/compound3dObjects/Cube.h
  /home/bruno/CLionProjects/freegl/src/compound3dObjects/Cylinder.h
  /home/bruno/CLionProjects/freegl/src/compound3dObjects/GridSystem.h
  /home/bruno/CLionProjects/freegl/src/compound3dObjects/Prism.h
  /home/bruno/CLionProjects/freegl/src/compound3dObjects/Pyramid.h
  /home/bruno/CLionProjects/freegl/src/compound3dObjects/Sphere.h
+ /home/bruno/CLionProjects/freegl/src/interface/Interface.h
+ /home/bruno/CLionProjects/freegl/src/light/Light.h
  /home/bruno/CLionProjects/freegl/src/models/Line.h
  /home/bruno/CLionProjects/freegl/src/models/Mesh.h
  /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h
- /home/bruno/CLionProjects/freegl/src/raw/Interface.h
  /home/bruno/CLionProjects/freegl/src/raw/Renderer.h
  /home/bruno/CLionProjects/freegl/src/raw/Shader.h
  /home/bruno/CLionProjects/freegl/src/raw/Texture.h
@@ -422,17 +426,86 @@ CMakeFiles/freegl.dir/src/basics/Color.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.cpp
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
  /home/bruno/CLionProjects/freegl/src/utils/Convertion.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/imgui/imconfig.h
+ /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui.h
 CMakeFiles/freegl.dir/src/basics/Normal.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Normal.cpp
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
 CMakeFiles/freegl.dir/src/basics/Position.cpp.o
+ /home/bruno/CLionProjects/freegl/src/basics/Color.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.cpp
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
 CMakeFiles/freegl.dir/src/basics/SimpleVertex.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.cpp
  /home/bruno/CLionProjects/freegl/src/basics/SimpleVertex.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
 CMakeFiles/freegl.dir/src/basics/TextureCoord.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.cpp
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
@@ -443,7 +516,32 @@ CMakeFiles/freegl.dir/src/basics/Vertex.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
  /home/bruno/CLionProjects/freegl/src/basics/Vertex.cpp
  /home/bruno/CLionProjects/freegl/src/basics/Vertex.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
+CMakeFiles/freegl.dir/src/camera/Camera.cpp.o
+ /home/bruno/CLionProjects/freegl/src/camera/Camera.cpp
 CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o
+ /home/bruno/CLionProjects/freegl/src/camera/Camera.h
  /home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.cpp
  /home/bruno/CLionProjects/freegl/src/camera/OrthographicCamera.h
  /home/bruno/CLionProjects/freegl/src/raw/Window.h
@@ -831,6 +929,7 @@ CMakeFiles/freegl.dir/src/camera/OrthographicCamera.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/glm/vec4.hpp
  /home/bruno/CLionProjects/freegl/src/utils/glm/vector_relational.hpp
 CMakeFiles/freegl.dir/src/camera/PerspectiveCamera.cpp.o
+ /home/bruno/CLionProjects/freegl/src/camera/Camera.h
  /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.cpp
  /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
  /home/bruno/CLionProjects/freegl/src/raw/Window.h
@@ -5208,6 +5307,66 @@ CMakeFiles/freegl.dir/src/compound3dObjects/Sphere.cpp.o
  /home/bruno/CLionProjects/freegl/src/utils/glm/vec4.hpp
  /home/bruno/CLionProjects/freegl/src/utils/glm/vector_relational.hpp
  /home/bruno/CLionProjects/freegl/src/utils/std_image/std_image.h
+CMakeFiles/freegl.dir/src/interface/Interface.cpp.o
+ /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/interface/Interface.cpp
+ /home/bruno/CLionProjects/freegl/src/interface/Interface.h
+ /home/bruno/CLionProjects/freegl/src/interface/styles/LightStyle.h
+ /home/bruno/CLionProjects/freegl/src/raw/Window.h
+ /home/bruno/CLionProjects/freegl/src/utils/Convertion.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/imgui/imconfig.h
+ /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui.h
+ /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui_impl_glfw.h
+ /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui_impl_opengl3.h
+CMakeFiles/freegl.dir/src/light/Light.cpp.o
+ /home/bruno/CLionProjects/freegl/src/basics/Color.h
+ /home/bruno/CLionProjects/freegl/src/basics/Position.h
+ /home/bruno/CLionProjects/freegl/src/light/Light.cpp
+ /home/bruno/CLionProjects/freegl/src/light/Light.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
 CMakeFiles/freegl.dir/src/models/Line.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
@@ -6005,21 +6164,14 @@ CMakeFiles/freegl.dir/src/models/Mesh.cpp.o
 CMakeFiles/freegl.dir/src/raw/IndexBuffer.cpp.o
  /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.cpp
  /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h
-CMakeFiles/freegl.dir/src/raw/Interface.cpp.o
- /home/bruno/CLionProjects/freegl/src/raw/Interface.cpp
- /home/bruno/CLionProjects/freegl/src/raw/Interface.h
- /home/bruno/CLionProjects/freegl/src/raw/Window.h
- /home/bruno/CLionProjects/freegl/src/utils/imgui/imconfig.h
- /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui.h
- /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui_impl_glfw.h
- /home/bruno/CLionProjects/freegl/src/utils/imgui/imgui_impl_opengl3.h
 CMakeFiles/freegl.dir/src/raw/Renderer.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Color.h
  /home/bruno/CLionProjects/freegl/src/basics/Normal.h
  /home/bruno/CLionProjects/freegl/src/basics/Position.h
  /home/bruno/CLionProjects/freegl/src/basics/TextureCoord.h
  /home/bruno/CLionProjects/freegl/src/basics/Vertex.h
- /home/bruno/CLionProjects/freegl/src/camera/PerspectiveCamera.h
+ /home/bruno/CLionProjects/freegl/src/camera/Camera.h
+ /home/bruno/CLionProjects/freegl/src/light/Light.h
  /home/bruno/CLionProjects/freegl/src/models/Mesh.h
  /home/bruno/CLionProjects/freegl/src/raw/IndexBuffer.h
  /home/bruno/CLionProjects/freegl/src/raw/Renderer.cpp
@@ -6814,6 +6966,28 @@ CMakeFiles/freegl.dir/src/raw/VertexArray.cpp.o
  /home/bruno/CLionProjects/freegl/src/raw/VertexArray.h
  /home/bruno/CLionProjects/freegl/src/raw/VertexArrayLayout.h
  /home/bruno/CLionProjects/freegl/src/raw/VertexBuffer.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
 CMakeFiles/freegl.dir/src/raw/VertexArrayLayout.cpp.o
  /home/bruno/CLionProjects/freegl/src/raw/VertexArrayLayout.cpp
  /home/bruno/CLionProjects/freegl/src/raw/VertexArrayLayout.h
@@ -6825,6 +6999,28 @@ CMakeFiles/freegl.dir/src/raw/VertexBuffer.cpp.o
  /home/bruno/CLionProjects/freegl/src/basics/Vertex.h
  /home/bruno/CLionProjects/freegl/src/raw/VertexBuffer.cpp
  /home/bruno/CLionProjects/freegl/src/raw/VertexBuffer.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/_swizzle_func.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/compute_vector_relational.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/qualifier.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/setup.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/detail/type_vec3.inl
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_int_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/scalar_uint_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_bool3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_double3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_float3_precision.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_int3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/ext/vector_uint3_sized.hpp
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/neon.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/simd/platform.h
+ /home/bruno/CLionProjects/freegl/src/utils/glm/vec3.hpp
 CMakeFiles/freegl.dir/src/raw/Window.cpp.o
  /home/bruno/CLionProjects/freegl/src/raw/Window.cpp
  /home/bruno/CLionProjects/freegl/src/raw/Window.h
